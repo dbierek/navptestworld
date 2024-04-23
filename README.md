@@ -1,6 +1,7 @@
 # NAVP Test World
 ## A Hitman: World of Assassination Mod for testing Navmeshes
 ![Navp Test World](https://github.com/dbierek/NavpTestWorld/blob/main/blobs/images/atomicforce/navptestworld/background.jpg?raw=true)
+![Current NAVP visualization](https://github.com/dbierek/NavpTestWorld/blob/main/blobs/images/navviewer/img.png?raw=true)
 ### Mod description:
 This mod is designed to test custom Navmeshes.
 ### Installation instructions:

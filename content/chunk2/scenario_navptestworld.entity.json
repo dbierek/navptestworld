@@ -384,10 +384,31 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"feedee0e055b426f": {
-			"parent": "feed65f3d232253a",
+			"parent": "feed0a60cf32eb01",
 			"name": "Props",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed0a60cf32eb01"
+				}
+			}
 		},
 		"feeded21230bc963": {
 			"parent": "feedb9d992182407",
@@ -1367,7 +1388,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedb3f93c76d3b1"
+					"value": "feed3c572ef05679"
 				}
 			}
 		},
@@ -1410,13 +1431,13 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedb3f93c76d3b1"
+					"value": "feedb2923f5fa7af"
 				}
 			}
 		},
 		"feed9f8831386662": {
 			"parent": "feedb1ad839e3e6c",
-			"name": "North Window with Frame",
+			"name": "North West Window with Frame",
 			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
 			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
 			"properties": {
@@ -1429,7 +1450,7 @@
 							"z": -90
 						},
 						"position": {
-							"x": 0,
+							"x": 6,
 							"y": -8,
 							"z": 0
 						}
@@ -1437,7 +1458,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedb3f93c76d3b1"
+					"value": "feedb1ad839e3e6c"
 				}
 			}
 		},
@@ -1466,7 +1487,7 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1,
-						"y": 4,
+						"y": 1,
 						"z": 1
 					}
 				},
@@ -1505,7 +1526,7 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1,
-						"y": 4,
+						"y": 1,
 						"z": 1
 					}
 				},
@@ -1516,111 +1537,6 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feed9f8831386662"
-				}
-			}
-		},
-		"feedfba2a040e203": {
-			"parent": "feedb1ad839e3e6c",
-			"name": "South Window with Frame",
-			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
-			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
-						"position": {
-							"x": 0,
-							"y": 8,
-							"z": 0
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedb3f93c76d3b1"
-				}
-			}
-		},
-		"feeda479df0372ba": {
-			"parent": "feedfba2a040e203",
-			"name": "Skyscraper_Window_6x4_Glass",
-			"factory": "00FF959467A8C08C",
-			"blueprint": "0055D313795CFA48",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 4,
-						"z": 1
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedfba2a040e203"
-				}
-			}
-		},
-		"feed0f34c5179d99": {
-			"parent": "feedfba2a040e203",
-			"name": "skyscraper_window_6x4_c_inside",
-			"factory": "0081250CD21B95AD",
-			"blueprint": "006734FBA4F1E68D",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 4,
-						"z": 1
-					}
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feedfba2a040e203"
 				}
 			}
 		},
@@ -1647,7 +1563,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedb3f93c76d3b1"
+					"value": "feedb1ad839e3e6c"
 				}
 			}
 		},
@@ -1752,7 +1668,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedb3f93c76d3b1"
+					"value": "feedb1ad839e3e6c"
 				}
 			}
 		},
@@ -1835,22 +1751,85 @@
 			}
 		},
 		"feedb1ad839e3e6c": {
-			"parent": "feed65f3d232253a",
+			"parent": "feed0a60cf32eb01",
 			"name": "Windows",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed0a60cf32eb01"
+				}
+			}
 		},
 		"feed3c572ef05679": {
-			"parent": "feed65f3d232253a",
+			"parent": "feed0a60cf32eb01",
 			"name": "Floors",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed0a60cf32eb01"
+				}
+			}
 		},
 		"feedb2923f5fa7af": {
-			"parent": "feed65f3d232253a",
+			"parent": "feed0a60cf32eb01",
 			"name": "Ceilings",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed0a60cf32eb01"
+				}
+			}
 		},
 		"feede50ae0479660": {
 			"parent": "feedee0e055b426f",
@@ -1883,7 +1862,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedb3f93c76d3b1"
+					"value": "feedee0e055b426f"
 				}
 			}
 		},
@@ -1918,7 +1897,7 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
-					"value": "feedb3f93c76d3b1"
+					"value": "feedee0e055b426f"
 				}
 			}
 		},
@@ -2228,6 +2207,919 @@
 					"Start": [
 						"feed4171b6096aff"
 					]
+				}
+			}
+		},
+		"feed224cff428df0": {
+			"parent": "feedb1ad839e3e6c",
+			"name": "North East Window with Frame",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -6,
+							"y": -8,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb1ad839e3e6c"
+				}
+			}
+		},
+		"feed3ae0ae629753": {
+			"parent": "feed224cff428df0",
+			"name": "Skyscraper_Window_6x4_Glass",
+			"factory": "00FF959467A8C08C",
+			"blueprint": "0055D313795CFA48",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed224cff428df0"
+				}
+			}
+		},
+		"feed79ebf8e98099": {
+			"parent": "feed224cff428df0",
+			"name": "skyscraper_window_6x4_c_inside",
+			"factory": "0081250CD21B95AD",
+			"blueprint": "006734FBA4F1E68D",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed224cff428df0"
+				}
+			}
+		},
+		"feed0a60cf32eb01": {
+			"parent": "feed65f3d232253a",
+			"name": "Entrance Room",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb3f93c76d3b1"
+				}
+			}
+		},
+		"feed9df8a6d8e2dd": {
+			"parent": "feed65f3d232253a",
+			"name": "Hallway",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": -16,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb3f93c76d3b1"
+				}
+			}
+		},
+		"feed3a2397b6cc55": {
+			"parent": "feed9df8a6d8e2dd",
+			"name": "Props",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9df8a6d8e2dd"
+				}
+			}
+		},
+		"feed2655c0b0dcbf": {
+			"parent": "feed9df8a6d8e2dd",
+			"name": "Windows",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9df8a6d8e2dd"
+				}
+			}
+		},
+		"feedc74da26ae631": {
+			"parent": "feed9df8a6d8e2dd",
+			"name": "Floors",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9df8a6d8e2dd"
+				}
+			}
+		},
+		"feed78e0167ff76d": {
+			"parent": "feed9df8a6d8e2dd",
+			"name": "Ceilings",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9df8a6d8e2dd"
+				}
+			}
+		},
+		"feed44e983148608": {
+			"parent": "feedb1ad839e3e6c",
+			"name": "South Window with Frame",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 0,
+							"y": 8,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb1ad839e3e6c"
+				}
+			}
+		},
+		"feed0a4123266d1c": {
+			"parent": "feed2655c0b0dcbf",
+			"name": "East Window with Frame",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -4,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2655c0b0dcbf"
+				}
+			}
+		},
+		"feedda16cbee2cdc": {
+			"parent": "feed2655c0b0dcbf",
+			"name": "West Window with Frame",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 180
+						},
+						"position": {
+							"x": 4,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2655c0b0dcbf"
+				}
+			}
+		},
+		"feedade230a884ca": {
+			"parent": "feed44e983148608",
+			"name": "Skyscraper_Window_6x4_Glass",
+			"factory": "00FF959467A8C08C",
+			"blueprint": "0055D313795CFA48",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 4,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed44e983148608"
+				}
+			}
+		},
+		"feed42168b9b3a6e": {
+			"parent": "feed44e983148608",
+			"name": "skyscraper_window_6x4_c_inside",
+			"factory": "0081250CD21B95AD",
+			"blueprint": "006734FBA4F1E68D",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 4,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed44e983148608"
+				}
+			}
+		},
+		"feeda9e487f1e4e2": {
+			"parent": "feed0a4123266d1c",
+			"name": "Skyscraper_Window_6x4_Glass",
+			"factory": "00FF959467A8C08C",
+			"blueprint": "0055D313795CFA48",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 4,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed0a4123266d1c"
+				}
+			}
+		},
+		"feed698b3d3fa91e": {
+			"parent": "feed0a4123266d1c",
+			"name": "skyscraper_window_6x4_c_inside",
+			"factory": "0081250CD21B95AD",
+			"blueprint": "006734FBA4F1E68D",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 4,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed0a4123266d1c"
+				}
+			}
+		},
+		"feedbdc6670fd7b2": {
+			"parent": "feedda16cbee2cdc",
+			"name": "Skyscraper_Window_6x4_Glass",
+			"factory": "00FF959467A8C08C",
+			"blueprint": "0055D313795CFA48",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 4,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedda16cbee2cdc"
+				}
+			}
+		},
+		"feedd257d92e914a": {
+			"parent": "feedda16cbee2cdc",
+			"name": "skyscraper_window_6x4_c_inside",
+			"factory": "0081250CD21B95AD",
+			"blueprint": "006734FBA4F1E68D",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 4,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedda16cbee2cdc"
+				}
+			}
+		},
+		"feed898521607581": {
+			"parent": "feedc74da26ae631",
+			"name": "skyscraper_staff_ceiling_floor_zmapped_a floor",
+			"factory": "0065E6850BB157E2",
+			"blueprint": "00B6E9D9DA6DE143",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -4,
+							"y": 8,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 4,
+						"y": 8,
+						"z": 1
+					}
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc74da26ae631"
+				}
+			}
+		},
+		"feed72869cedfb34": {
+			"parent": "feed78e0167ff76d",
+			"name": "skyscraper_staff_ceiling_floor_zmapped_a ceiling",
+			"factory": "0065E6850BB157E2",
+			"blueprint": "00B6E9D9DA6DE143",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -180,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -4,
+							"y": -8,
+							"z": 6
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 4,
+						"y": 8,
+						"z": 1
+					}
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed78e0167ff76d"
+				}
+			}
+		},
+		"feed503a2de9e50b": {
+			"parent": "feed2655c0b0dcbf",
+			"name": "North West Window with Frame",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 2,
+							"y": -8,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2655c0b0dcbf"
+				}
+			}
+		},
+		"feede2459fd23527": {
+			"parent": "feed503a2de9e50b",
+			"name": "Skyscraper_Window_6x4_Glass",
+			"factory": "00FF959467A8C08C",
+			"blueprint": "0055D313795CFA48",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed503a2de9e50b"
+				}
+			}
+		},
+		"feedda9177a2ae5e": {
+			"parent": "feed503a2de9e50b",
+			"name": "skyscraper_window_6x4_c_inside",
+			"factory": "0081250CD21B95AD",
+			"blueprint": "006734FBA4F1E68D",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed503a2de9e50b"
+				}
+			}
+		},
+		"feedc52c77239cdc": {
+			"parent": "feed2655c0b0dcbf",
+			"name": "North East Window with Frame",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -2,
+							"y": -8,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed2655c0b0dcbf"
+				}
+			}
+		},
+		"feed9a077d2fee67": {
+			"parent": "feedc52c77239cdc",
+			"name": "Skyscraper_Window_6x4_Glass",
+			"factory": "00FF959467A8C08C",
+			"blueprint": "0055D313795CFA48",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 3
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc52c77239cdc"
+				}
+			}
+		},
+		"feed94dc8629a8e5": {
+			"parent": "feedc52c77239cdc",
+			"name": "skyscraper_window_6x4_c_inside",
+			"factory": "0081250CD21B95AD",
+			"blueprint": "006734FBA4F1E68D",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedc52c77239cdc"
+				}
+			}
+		},
+		"feedaaec19107fb6": {
+			"parent": "feed3a2397b6cc55",
+			"name": "Leather_Chair_Italian_A_02",
+			"factory": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/leather_chair_italian_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/leather_chair_italian_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0,
+							"y": -6,
+							"z": 0
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed3a2397b6cc55"
 				}
 			}
 		}
