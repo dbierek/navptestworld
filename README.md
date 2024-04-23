@@ -12,7 +12,7 @@ This mod is designed to test custom Navmeshes created using [some new enhancemen
 
 ### Credits:
 
-NavTool - Anthony Fuller - https://github.com/OrfeasZ/ZHMTools, https://github.com/AnthonyFuller  
+NavTool - NoFaTe and Anthony Fuller - https://github.com/AnthonyFuller/NavPower-Research,   https://github.com/OrfeasZ/ZHMTools, https://github.com/AnthonyFuller  
 RPKG - Notex, AnthonyFuller, RDIL, 2kpr, Atampy25 - https://glaciermodding.org/rpkg/, https://github.com/glacier-modding/RPKG-Tool  
 Simple Mod Framework - Atampy25 - https://github.com/atampy25/simple-mod-framework  
 Quickentity Editor - Atampy25 - https://github.com/atampy25/quickentity-editor-next  
