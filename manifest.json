@@ -1,0 +1,52 @@
+{
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"id": "AtomicForce.NavpTestWorld",
+	"name": "NavpTestWorld",
+	"description": "A mod for testing custom NAVPs",
+	"authors": ["AtomicForce"],
+	"contentFolders": ["content"],
+	"blobsFolders": ["blobs"],
+	"dependencies": [
+		{
+			"runtimeID": "00194931A7FA2F7D",
+			"comment": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/leather_chair_italian_a.entitytemplate].pc_entitytype",
+			"toChunk": 2
+		},
+		{
+			"runtimeID": "00E16387CDF34A67",
+			"comment": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/props/furniture/antique_furniture_a.template?/medieval_oak_desk_a.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
+			"toChunk": 2
+		}
+	],
+	"localisation": {
+		"english": {
+			"UI_LOCATION_PARENT_ATOMICFORCE_NAVPTESTWORLD_COUNTRY": "Modland",
+			"UI_LOCATION_ATOMICFORCE_NAVPTESTWORLD_COUNTRY": "Navp Test World",
+			"UI_LOCATION_PARENT_ATOMICFORCE_NAVPTESTWORLD_CITY": "Navp Test World",
+			"UI_LOCATION_ATOMICFORCE_NAVPTESTWORLD_CITY": "Navp Test World",
+			"UI_LOCATION_ATOMICFORCE_NAVPTESTWORLD_TITLE": "Navp Test World",
+			"UI_CONTRACT_ATOMICFORCE_NAVPTESTWORLD_TITLE": "Navp Test World",
+			"UI_CONTRACT_ATOMICFORCE_NAVPTESTWORLD_DESC": "Navp Test World. A world all about testing NAVPs",
+			"UI_ENTRANCE_ATOMICFORCE_NAVPTESTWORLD_DEFAULT_NAME": "Navp Test World Entrance",
+			"UI_ENTRANCE_ATOMICFORCE_NAVPTESTWORLD_DEFAULT_DESCRIPTION": "Entrance to the Navp Test World"
+		},
+		"french": {},
+		"italian": {},
+		"german": {},
+		"spanish": {},
+		"russian": {},
+		"chineseSimplified": {},
+		"chineseTraditional": {},
+		"japanese": {}
+	},
+	"packagedefinition": [
+		{
+			"type": "entity",
+			"partition": "season3",
+			"path": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_navptestworld.entity].entitytemplate"
+		}
+	],
+	"version": "0.1.0",
+	"frameworkVersion": "2.33.6",
+	"updateCheck": "https://github.com/dbierek/navptestworld/releases/latest/download/updates.json"
+}

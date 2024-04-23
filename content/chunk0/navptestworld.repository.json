@@ -1,0 +1,9 @@
+{
+	"623222a6-1e15-4f56-a529-8862e20181b6": {
+		"ID_": "623222a6-1e15-4f56-a529-8862e20181b6",
+		"Description": "UI_ENTRANCE_ATOMICFORCE_NAVPTESTWORLD_DEFAULT_DESCRIPTION",
+		"Image": "images/atomicforce/navptestworld/entrance/default.jpg",
+		"Name": "EntranceNavpTestWorldDefault",
+		"Name_LOC": "UI_ENTRANCE_ATOMICFORCE_NAVPTESTWORLD_DEFAULT_NAME"
+	}
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "hash": "009F622BC6A91CC4",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/missions/navptestworld/scene_navp_test_world.navp].pc_navp"
+  },
+  {
+    "hash": "00827270EBBDAB98",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_navptestworld.airg].pc_airg"
+  },
+  {
+    "hash": "007FFD2655488B82",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_navptestworld.entity].pc_entitytemplate"
+  },
+  {
+    "hash": "00AAC282BC55DF6D",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_navptestworld.entity].pc_entityblueprint"
+  },
+  {
+    "hash": "00276FD0DE7FA8B5",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scenario_navptestworld.entity].pc_entitytemplate"
+  },
+  {
+    "hash": "003FC5B5BE3EA0CE",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scenario_navptestworld.entity].pc_entityblueprint"
+  },
+  {
+    "hash": "00723D59B3F0661C",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/outfits_navptestworld.brick].pc_entitytype"
+  },
+  {
+    "hash": "006BDE722C95B35C",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/outfits_navptestworld.brick].pc_entityblueprint"
+  },
+  {
+    "hash": "004C8DC70D0567FB",
+    "IOI String": "[assembly:/_pro/scenes/bricks/menumapsetup_atomicforce_navptestworld.brick].pc_entitytype"
+  },
+  {
+    "hash": "0038D45876D41A1D",
+    "IOI String": "[assembly:/_pro/scenes/bricks/menumapsetup_atomicforce_navptestworld.brick].pc_entityblueprint"
+  },
+  {
+    "hash": "00CCEDAF9A81A574",
+    "IOI String": "(planning_contract) atomicforce navptestworld"
+  }
+]

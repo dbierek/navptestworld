@@ -1,0 +1,14 @@
+{
+	"scene": "assembly:/_pro/scenes/atomicforce/navptestworld/scene_navptestworld.entity",
+	"actors": [],
+	"entrances": [
+		{
+			"id": "623222a6-1e15-4f56-a529-8862e20181b6",
+			"isDefaultSpawn": true,
+			"isPreferredSpawn": true,
+			"WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0"
+		}
+	],
+	"Exits": [],
+	"AgencyPickups": []
+}

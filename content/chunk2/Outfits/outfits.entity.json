@@ -1,0 +1,177 @@
+{
+	"tempHash": "00723D59B3F0661C",
+	"tbluHash": "006BDE722C95B35C",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype"
+		},
+		"feed5e6ce1abba29": {
+			"parent": "fffffffffffffffe",
+			"name": "Golden_Unique_HelicopterPilot_M_PRO176285",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedde82859bc349"
+					]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_SNEAKERS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "ea5b1cea-c305-4f60-9512-78b2e6cd5030"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Golden_Unique_Pilot_M_PRO176285"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Helicopter Pilot"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_helicopterpilot_m_name_ea5b1cea-c305-4f60-9512-78b2e6cd5030.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_unique_helicopterpilot_m_description_ea5b1cea-c305-4f60-9512-78b2e6cd5030.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_CIVMALECH01"
+					]
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Pilot"
+				}
+			}
+		},
+		"feedc45082f359a6": {
+			"parent": "feed5e6ce1abba29",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed5e6ce1abba29"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feed2360e3e6b4c6": {
+			"parent": "feed5e6ce1abba29",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ARMYVEST",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5e6ce1abba29"
+				}
+			}
+		},
+		"feedc7caece8859c": {
+			"parent": "feed5e6ce1abba29",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed5e6ce1abba29"
+					]
+				}
+			}
+		},
+		"feedde82859bc349": {
+			"parent": "feed5e6ce1abba29",
+			"name": "CHARSET_pilot",
+			"factory": "[assembly:/_pro/characters/templates/gecko/char_gecko_unique.template?/charset_gecko_unique_helicopterpilot_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/gecko/char_gecko_unique.template?/charset_gecko_unique_helicopterpilot_m.entitytemplate].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

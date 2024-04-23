@@ -1,0 +1,36 @@
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [],
+		"Bricks": [],
+		"VR": [],
+		"GameChangers": [],
+		"GameChangerReferences": [],
+		"GameDifficulties": [],
+		"SimulationQualities": []
+	},
+	"Metadata": {
+		"Id": "ff9405f8-9657-40aa-a7dc-cbd2ada99702",
+		"IsPublished": true,
+		"CreationTimestamp": "2024-04-21T22:25:40.000000-07:00",
+		"CreatorUserId": "00000000-0000-0000-0000-000000000000",
+		"Title": "UI_CONTRACT_ATOMICFORCE_NAVPTESTWORLD_TITLE",
+		"Description": "UI_CONTRACT_ATOMICFORCE_NAVPTESTWORLD_DESC",
+		"TileImage": "images/atomicforce/navptestworld/tile.jpg",
+		"CodeName_Hint": "atomicforce_navptestworld",
+		"ScenePath": "assembly:/_pro/scenes/atomicforce/navptestworld/scene_navptestworld.entity",
+		"Location": "LOCATION_ATOMICFORCE_NAVPTESTWORLD",
+		"LastUpdate": "2024-04-21T22:25:40.000-07:00",
+		"Type": "flashback",
+		"Subtype": "mission",
+		"Release": "1.0.x"
+	},
+	"UserData": {},
+	"SMF": {
+		"destinations": {
+			"addToDestinations": true,
+			"peacockIntegration": true,
+			"narrativeContext": "Mission"
+		}
+	}
+}
