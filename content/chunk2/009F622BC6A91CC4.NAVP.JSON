@@ -1,51 +1,4 @@
 {
-<<<<<<< Updated upstream
-  "m_hdr": {
-    "m_endianFlag": 0,
-    "m_version": 2,
-    "m_imageSize": 828,
-    "m_checksum": 788645076,
-    "m_runtimeFlags": 0,
-    "m_constantFlags": 0
-  },
-  "m_sectHdr": { "m_id": 65536, "m_size": 816, "m_pointerSize": 1 },
-  "m_setHdr": { "m_endianFlag": 0, "m_version": 40, "m_numGraphs": 1 },
-  "m_graphHdr": {
-    "m_version": 40,
-    "m_layer": 0,
-    "m_areaBytes": 400,
-    "m_kdTreeBytes": 80,
-    "m_linkRecordBytes": 0,
-    "m_totalBytes": 804,
-    "m_buildScale": 2.0,
-    "m_voxSize": 0.10000000149011612,
-    "m_radius": 0.20000000298023224,
-    "m_stepHeight": 0.30000001192092896,
-    "m_height": 1.79999995231628418,
-    "m_bbox": {
-      "m_min": { "X": -8.0, "Y": -8.0, "Z": 0.0 },
-      "m_max": { "X": 8.0, "Y": 8.0, "Z": 1.0 }
-    },
-    "m_buildUpAxis": 2
-  },
-  "m_areas": [
-    {
-      "m_area": {
-        "m_pProxy": 0,
-        "m_dynAreaData": 0,
-        "m_pFirstLink": 0,
-        "m_pSearchParent": 0,
-        "m_pos": { "X": -4.0, "Y": 0.0, "Z": 0.0 },
-        "m_radius": 22.62741,
-        "m_searchCost": 4294967295,
-        "m_usageFlags": "Flat",
-        "m_flags": {
-          "m_flags1": 33554308,
-          "m_flags2": 68222976,
-          "m_flags3": 0,
-          "m_flags4": 0
-        }
-=======
   "m_areas": [
     {
       "m_area": {
@@ -55,15 +8,10 @@
           "Z": 0.00000000000000000
         },
         "m_usageFlags": "Flat"
->>>>>>> Stashed changes
       },
       "m_edges": [
         {
           "m_pAdjArea": 0,
-<<<<<<< Updated upstream
-          "m_pos": { "X": -8.0, "Y": -8.0, "Z": 0.0 },
-          "m_flags1": 4294901760,
-=======
           "m_pos": {
             "X": -8.00000000000000000,
             "Y": -8.00000000000000000,
@@ -80,65 +28,32 @@
             "Z": 0.00000000000000000
           },
           "Type": "Normal",
->>>>>>> Stashed changes
           "m_flags2": 0
         },
         {
           "m_pAdjArea": 2,
-<<<<<<< Updated upstream
-          "m_pos": { "X": 0.0, "Y": -8.0, "Z": 0.0 },
-          "m_flags1": 4294901760,
-=======
           "m_pos": {
             "X": -4.00000000000000000,
             "Y": 8.00000000000000000,
             "Z": 0.00000000000000000
           },
           "Type": "Normal",
->>>>>>> Stashed changes
           "m_flags2": 0
         },
         {
           "m_pAdjArea": 0,
-<<<<<<< Updated upstream
-          "m_pos": { "X": 0.0, "Y": 8.0, "Z": 0.0 },
-          "m_flags1": 4294901760,
-=======
           "m_pos": {
             "X": -8.00000000000000000,
             "Y": 8.00000000000000000,
             "Z": 0.00000000000000000
           },
           "Type": "Normal",
->>>>>>> Stashed changes
           "m_flags2": 0
-        },
-        {
-          "m_pAdjArea": 0,
-          "m_pos": { "X": -8.0, "Y": 8.0, "Z": 0.0 },
-          "m_flags1": 4294901760,
-          "m_flags2": 2
         }
       ]
     },
     {
       "m_area": {
-<<<<<<< Updated upstream
-        "m_pProxy": 0,
-        "m_dynAreaData": 0,
-        "m_pFirstLink": 0,
-        "m_pSearchParent": 0,
-        "m_pos": { "X": 4.0, "Y": 0.0, "Z": 0.0 },
-        "m_radius": 22.62741,
-        "m_searchCost": 4294967295,
-        "m_usageFlags": "Flat",
-        "m_flags": {
-          "m_flags1": 33554308,
-          "m_flags2": 51445760,
-          "m_flags3": 0,
-          "m_flags4": 0
-        }
-=======
         "m_pos": {
           "X": 0.00000000000000000,
           "Y": 0.00000000000000000,
@@ -147,33 +62,10 @@
         "m_radius": 11.31370830535888672,
         "m_searchCost": 4294967295,
         "m_usageFlags": "Flat"
->>>>>>> Stashed changes
       },
       "m_edges": [
         {
-          "m_pAdjArea": 0,
-          "m_pos": { "X": 0.0, "Y": -8.0, "Z": 0.0 },
-          "m_flags1": 4294901760,
-          "m_flags2": 0
-        },
-        {
-          "m_pAdjArea": 0,
-          "m_pos": { "X": 8.0, "Y": -8.0, "Z": 0.0 },
-          "m_flags1": 4294901760,
-          "m_flags2": 0
-        },
-        {
-          "m_pAdjArea": 0,
-          "m_pos": { "X": 8.0, "Y": 8.0, "Z": 0.0 },
-          "m_flags1": 4294901760,
-          "m_flags2": 0
-        },
-        {
           "m_pAdjArea": 1,
-<<<<<<< Updated upstream
-          "m_pos": { "X": 0.0, "Y": 8.0, "Z": 0.0 },
-          "m_flags1": 4294901760,
-=======
           "m_pos": {
             "X": -4.00000000000000000,
             "Y": -8.00000000000000000,
@@ -318,33 +210,9 @@
             "Z": 0.00000000000000000
           },
           "Type": "Normal",
->>>>>>> Stashed changes
           "m_flags2": 0
         }
       ]
     }
-<<<<<<< Updated upstream
-  ],
-  "m_kdTreeData": {
-    "m_bbox": {
-      "m_min": { "X": -8.0, "Y": -8.0, "Z": 0.0 },
-      "m_max": { "X": 8.0, "Y": 8.0, "Z": 1.0 }
-    },
-    "m_size": 52
-  },
-  "m_rootKDNode": {
-    "m_data": 16,
-    "m_dLeft": 4.0,
-    "m_dRight": -4.0,
-    "leftChild": {
-      "m_data": 2147483648
-    },
-    "rightChild": {
-      "m_data": 2147483648
-    }
-  }
-}
-=======
   ]
 }
->>>>>>> Stashed changes
