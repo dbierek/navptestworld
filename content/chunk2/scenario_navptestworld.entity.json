@@ -1365,7 +1365,7 @@
 						},
 						"position": {
 							"x": -8,
-							"y": 8,
+							"y": 6,
 							"z": 0
 						}
 					}
@@ -1374,7 +1374,7 @@
 					"type": "SVector3",
 					"value": {
 						"x": 8,
-						"y": 8,
+						"y": 6,
 						"z": 1
 					}
 				},
@@ -1408,7 +1408,7 @@
 						},
 						"position": {
 							"x": -8,
-							"y": -8,
+							"y": -6,
 							"z": 6
 						}
 					}
@@ -1417,7 +1417,7 @@
 					"type": "SVector3",
 					"value": {
 						"x": 8,
-						"y": 8,
+						"y": 6,
 						"z": 1
 					}
 				},
@@ -1447,11 +1447,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90
+							"z": -89.9999965849052
 						},
 						"position": {
 							"x": 6,
-							"y": -8,
+							"y": -6,
 							"z": 0
 						}
 					}
@@ -1592,7 +1592,7 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1,
-						"y": 4,
+						"y": 3,
 						"z": 1
 					}
 				},
@@ -1631,7 +1631,7 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1,
-						"y": 4,
+						"y": 3,
 						"z": 1
 					}
 				},
@@ -1697,7 +1697,7 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1,
-						"y": 4,
+						"y": 3,
 						"z": 1
 					}
 				},
@@ -1736,7 +1736,7 @@
 					"type": "SVector3",
 					"value": {
 						"x": 1,
-						"y": 4,
+						"y": 3,
 						"z": 1
 					}
 				},
@@ -1847,7 +1847,7 @@
 						},
 						"position": {
 							"x": 0,
-							"y": -5.8,
+							"y": -3.799999952316284,
 							"z": 0
 						}
 					}
@@ -1882,7 +1882,7 @@
 						},
 						"position": {
 							"x": 0,
-							"y": -4,
+							"y": -2,
 							"z": 0
 						}
 					}
@@ -1995,7 +1995,7 @@
 			"events": {
 				"OnStart": {
 					"Start": [
-						"feed7288f5e4bcc2"
+						"feeda19eadb62d8d"
 					]
 				}
 			},
@@ -2014,60 +2014,9 @@
 				}
 			}
 		},
-		"feed7288f5e4bcc2": {
-			"parent": "feed07bd6182eebd",
-			"name": "Act_MR_Stand_Basic Outside",
-			"factory": "00251CC86224019D",
-			"blueprint": "005C75C0C3B1863A",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 10,
-							"y": -5.5,
-							"z": 0
-						}
-					}
-				},
-				"m_AlignRotation": {
-					"type": "ZActBehaviorEntity.ERotationAlignment",
-					"value": "RA_EXACT"
-				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 1
-				},
-				"m_bUseConversationHelper": {
-					"type": "bool",
-					"value": true
-				},
-				"m_MovementType": {
-					"type": "ZActBehaviorEntity.EMovementType",
-					"value": "MT_WALK"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feed4171b6096aff"
-					]
-				}
-			}
-		},
 		"feeda19eadb62d8d": {
 			"parent": "feed07bd6182eebd",
-			"name": "Act_MR_Stand_Basic Chair",
+			"name": "Act_MR_Stand_Basic Entrance Chair",
 			"factory": "00251CC86224019D",
 			"blueprint": "005C75C0C3B1863A",
 			"properties": {
@@ -2081,7 +2030,7 @@
 						},
 						"position": {
 							"x": 0,
-							"y": -5.5,
+							"y": -3.5,
 							"z": 0
 						}
 					}
@@ -2111,14 +2060,14 @@
 			"events": {
 				"OnActTimeout": {
 					"Start": [
-						"feed7288f5e4bcc2"
+						"feedecd94415b921"
 					]
 				}
 			}
 		},
 		"feed4171b6096aff": {
 			"parent": "feed07bd6182eebd",
-			"name": "Act_MR_Stand_Basic Window",
+			"name": "Act_MR_Stand_Basic East Window",
 			"factory": "00251CC86224019D",
 			"blueprint": "005C75C0C3B1863A",
 			"properties": {
@@ -2131,7 +2080,7 @@
 							"z": -180
 						},
 						"position": {
-							"x": 7,
+							"x": -7,
 							"y": -5.5,
 							"z": 0
 						}
@@ -2167,49 +2116,6 @@
 				}
 			}
 		},
-		"feeda66a56e8d8d4": {
-			"parent": "feed07bd6182eebd",
-			"name": "Act_MR_Sit_Sleeping",
-			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_sleeping.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_sleeping.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 0,
-							"y": -5.5,
-							"z": 0
-						}
-					}
-				},
-				"m_ePerceptionSensitivity": {
-					"type": "EActorPerceptionSensitivity",
-					"value": "APS_AMBIENT_SLEEPING"
-				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 10
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnReached": {
-					"Start": [
-						"feed4171b6096aff"
-					]
-				}
-			}
-		},
 		"feed224cff428df0": {
 			"parent": "feedb1ad839e3e6c",
 			"name": "North East Window with Frame",
@@ -2222,11 +2128,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -90
+							"z": -89.9999965849052
 						},
 						"position": {
 							"x": -6,
-							"y": -8,
+							"y": -6,
 							"z": 0
 						}
 					}
@@ -2358,7 +2264,7 @@
 						},
 						"position": {
 							"x": 0,
-							"y": -16,
+							"y": -14,
 							"z": 0
 						}
 					}
@@ -2489,11 +2395,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 90
+							"z": 89.9999965849052
 						},
 						"position": {
 							"x": 0,
-							"y": 8,
+							"y": 6,
 							"z": 0
 						}
 					}
@@ -3120,6 +3026,223 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feed3a2397b6cc55"
+				}
+			}
+		},
+		"feedecd94415b921": {
+			"parent": "feed07bd6182eebd",
+			"name": "Act_MR_Stand_Basic Hallway Chair",
+			"factory": "00251CC86224019D",
+			"blueprint": "005C75C0C3B1863A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0,
+							"y": -19,
+							"z": 0
+						}
+					}
+				},
+				"m_AlignRotation": {
+					"type": "ZActBehaviorEntity.ERotationAlignment",
+					"value": "RA_EXACT"
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_bUseConversationHelper": {
+					"type": "bool",
+					"value": true
+				},
+				"m_MovementType": {
+					"type": "ZActBehaviorEntity.EMovementType",
+					"value": "MT_WALK"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed24a6899d56e9"
+					]
+				}
+			}
+		},
+		"feed39312d2f34c3": {
+			"parent": "feed0a60cf32eb01",
+			"name": "PF Obstacles",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb3f93c76d3b1"
+				}
+			}
+		},
+		"feed7782d08baa23": {
+			"parent": "feeda4e80bc4b859",
+			"name": "PFObstacle Chair",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 2.5,
+						"y": 1,
+						"z": 2
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": 15
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda4e80bc4b859",
+					"postInit": true
+				}
+			}
+		},
+		"feed4fa9c1d95841": {
+			"parent": "feede50ae0479660",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": 15
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feede50ae0479660",
+					"postInit": true
+				}
+			}
+		},
+		"feed24a6899d56e9": {
+			"parent": "feed07bd6182eebd",
+			"name": "Act_MR_Stand_Basic West Window",
+			"factory": "00251CC86224019D",
+			"blueprint": "005C75C0C3B1863A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 7,
+							"y": -5.5,
+							"z": 0
+						}
+					}
+				},
+				"m_AlignRotation": {
+					"type": "ZActBehaviorEntity.ERotationAlignment",
+					"value": "RA_EXACT"
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_bUseConversationHelper": {
+					"type": "bool",
+					"value": true
+				},
+				"m_MovementType": {
+					"type": "ZActBehaviorEntity.EMovementType",
+					"value": "MT_WALK"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActTimeout": {
+					"Start": [
+						"feed4171b6096aff"
+					]
 				}
 			}
 		}
