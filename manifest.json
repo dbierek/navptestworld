@@ -18,6 +18,20 @@
 			"toChunk": 2
 		}
 	],
+	"options": [
+		{
+			"name": "Use custom navp for Romania",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["romania"]
+		},
+		{
+			"name": "Use custom navp for The Final Test mission",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["polarbear"]
+		}
+	],
 	"localisation": {
 		"english": {
 			"UI_LOCATION_PARENT_ATOMICFORCE_NAVPTESTWORLD_COUNTRY": "Modland",
