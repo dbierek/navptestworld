@@ -1,0 +1,21 @@
+{
+  "tempHash": "00FFDF4AE1FF37D3",
+  "tbluHash": "0026E48E6A4334E4",
+  "patch": [
+    {
+      "SubEntityOperation": [
+        "a9a4190c4dbfaccf",
+        {
+          "SetPropertyValue": {
+            "property_name": "m_NavpowerResourceID",
+            "value": {
+              "resource": "[assembly:/_pro/scenes/atomicforce/missions/navptestworld/_scene_mission_polarbear_module_005.navp].pc_navp",
+              "flag": "5F"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}

@@ -42,5 +42,9 @@
   {
     "hash": "00CCEDAF9A81A574",
     "IOI String": "(planning_contract) atomicforce navptestworld"
+  },
+  {
+    "hash": "00EF43A8410D9FBA",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/missions/navptestworld/_scene_mission_polarbear_module_005.navp].pc_navp"
   }
 ]
