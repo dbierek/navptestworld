@@ -10,6 +10,70 @@ This mod is designed to test custom Navmeshes created using [some new enhancemen
 3. Click Deploy.
 4. Launch Hitman in Offline mode.
 
+Current release uses NavpJsonVersion 0.1.
+**NavpJsonVersion 0.1**
+Example:
+```
+{
+  "Areas": [
+    {
+      "Area": { "Index": 1 },
+      "Edges": [
+        {
+          "Position": { "X": -22.8499, "Y": -12.9597, "Z": -1.3357 },
+          "Flags": 662
+        },
+        {
+          "Position": { "X": -21.75, "Y": -15.85, "Z": -1.3504 },
+          "Flags": 451
+        },
+        {
+          "Adjacent Area": 2,
+          "Position": { "X": -20.75, "Y": -12.9497, "Z": -1.3505 },
+          "Flags": 1772
+        }
+      ]
+    },
+    {
+      "Area": { "Index": 2, "Type": "Steps" },
+      "Edges": [
+        {
+          "Adjacent Area": 3,
+          "Position": { "X": -20.75, "Y": -8.4714, "Z": 1.6817 },
+          "Flags": 1776
+        },
+        { "Position": { "X": -22.5496, "Y": -8.48, "Z": 1.6943 } },
+        { "Position": { "X": -22.85, "Y": -8.55, "Z": 1.65 } },
+        {
+          "Adjacent Area": 1,
+          "Position": { "X": -22.8499, "Y": -12.9597, "Z": -1.3357 },
+          "Flags": 1772
+        },
+        { "Position": { "X": -20.75, "Y": -12.9497, "Z": -1.3505 } }
+      ]
+    },
+    {
+      "Area": { "Index": 421, "Type": "Steps" },
+      "Edges": [
+        { "Position": { "X": -22.55, "Y": -8.25, "Z": 1.85 } },
+        {
+          "Adjacent Area": 2,
+          "Position": { "X": -22.5496, "Y": -8.48, "Z": 1.6943 },
+          "Flags": 1776
+        },
+        { "Position": { "X": -20.75, "Y": -8.4714, "Z": 1.6817 } },
+        {
+          "Position": { "X": -20.75, "Y": -6.45, "Z": 3.0503 },
+          "Type": "Portal",
+          "Flags": 594
+        }
+      ]
+    }
+  ],
+  "NavpJsonVersion": "0.1"
+}
+```
+
 ### Credits:
 
 NavTool - NoFaTe and Anthony Fuller - https://github.com/AnthonyFuller/NavPower-Research,   https://github.com/OrfeasZ/ZHMTools, https://github.com/AnthonyFuller  
