@@ -10,7 +10,7 @@ This mod is designed to test custom Navmeshes created using [some new enhancemen
 3. Click Deploy.
 4. Launch Hitman in Offline mode.
 
-Current release uses NavpJsonVersion 0.1.
+Current release uses NavpJsonVersion 0.1.  
 **NavpJsonVersion 0.1**
 Example:
 ```
