@@ -53,7 +53,7 @@ Example:
       ]
     },
     {
-      "Area": { "Index": 421, "Type": "Steps" },
+      "Area": { "Index": 3, "Type": "Steps" },
       "Edges": [
         { "Position": { "X": -22.55, "Y": -8.25, "Z": 1.85 } },
         {
