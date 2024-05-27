@@ -4,34 +4,20 @@
   "patch": [
     {
       "SubEntityOperation": [
-        "0f374e8c1e033807",
-        {
-          "SetPropertyValue": {
-            "property_name": "m_NavpowerResourceID",
-            "value": {
-              "resource": "[assembly:/_pro/scenes/missions/trapped/scene_wolverine_modified.navp].pc_navp",
-              "flag": "5F"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "SubEntityOperation": [
         "b395397b5b71142c",
         {
           "SetPropertyValue": {
             "property_name": "m_mTransform",
             "value": {
               "rotation": {
-                "x": 0,
-                "y": 0,
-                "z": 0
+                "x": -0.10944398686462516,
+                "y": 0.11933941930363098,
+                "z": 85.04672578260625
               },
               "position": {
-                "x": 1.5838470458984375,
-                "y": -4.435486078262329,
-                "z": 0
+                "x": 0.719931960105896,
+                "y": -6.272003173828125,
+                "z": 0.0
               }
             }
           }
@@ -51,20 +37,20 @@
     },
     {
       "SubEntityOperation": [
-        "e43aed3b1dd5e76f",
+        "da4122c475394e10",
         {
           "SetPropertyValue": {
             "property_name": "m_mTransform",
             "value": {
               "rotation": {
-                "x": -0,
-                "y": 0,
-                "z": 83.4839542249618
+                "x": -0.0,
+                "y": 0.0,
+                "z": -0.0
               },
               "position": {
-                "x": -0.1676547,
-                "y": 131.30981,
-                "z": 2.861023e-06
+                "x": 0.02214200049638748,
+                "y": 5.5,
+                "z": 1.0
               }
             }
           }
@@ -73,21 +59,46 @@
     },
     {
       "SubEntityOperation": [
-        "655736c20429813c",
+        "da4122c475394e10",
+        {
+          "SetPropertyValue": {
+            "property_name": "m_eidParent",
+            "value": "5a87508c6af35029"
+          }
+        }
+      ]
+    },
+    {
+      "SubEntityOperation": [
+        "1a8048594dc087ef",
         {
           "SetPropertyValue": {
             "property_name": "m_mTransform",
             "value": {
               "rotation": {
-                "x": -0,
-                "y": 0,
-                "z": -100.79706992178595
+                "x": -0.10944398686462516,
+                "y": 0.11933941930363098,
+                "z": 85.04672578260625
               },
               "position": {
-                "x": -0.23056436,
-                "y": 118.87164,
-                "z": -4.172325e-06
+                "x": 1.719931960105896,
+                "y": -7.272003173828125,
+                "z": 0.0
               }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "SubEntityOperation": [
+        "0f374e8c1e033807",
+        {
+          "SetPropertyValue": {
+            "property_name": "m_NavpowerResourceID",
+            "value": {
+              "resource": "[assembly:/_pro/scenes/missions/trapped/scene_wolverine_modified.navp].pc_navp",
+              "flag": "5F"
             }
           }
         }
