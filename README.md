@@ -5,13 +5,13 @@
 ### Mod description:
 This mod is designed to test custom Navmeshes created using [some new enhancements to NavTool](https://github.com/OrfeasZ/ZHMTools/pull/34) in [ZHMTools](https://github.com/OrfeasZ/ZHMTools)  
 To use the new updates to [NavTool](https://github.com/OrfeasZ/ZHMTools/tree/master/Tools/NavTool/Src), you will currently need to compile ZHMTools from the above branch. Then go to the folder where `NavTool.exe` is and launch the `NavTool.exe` executible with the following arguments.  
-It will read from NAVP or JSON depending on the filename in the first argument. If the filename contains JSON it will open and parse the JSON file. I recommend naming the file `[HASHCODE].NAVP.JSON`, but it can be anything as long as it ends in .JSON.  
-### Writing to JSON:  
+It will read from NAVP or JSON depending on the filename in the first argument. If the filename contains JSON it will open and parse the JSON file.   
+### Writing to NAVP:  
 Use the `--navp` flag and enter the output filename.  
 *Example:*  
 `NavTool.exe 00F7EAFFD546CE00.NAVP.JSON --navp 00F7EAFFD546CE00.NAVP`  
 ### Writing to JSON:  
-Use the `--json` flag and enter the output filename.  
+Use the `--json` flag and enter the output filename. I recommend naming the file `[HASHCODE].NAVP.JSON`, but it can be anything as long as it ends in .JSON.  
 *Example:*  
 `NavTool.exe 009F622BC6A91CC4.NAVP --json 009F622BC6A91CC4.NAVP.JSON`  
 ### Using the NAVP file in a scenario
