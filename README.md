@@ -3,7 +3,7 @@
 ![Navp Test World](https://github.com/dbierek/NavpTestWorld/blob/main/blobs/images/atomicforce/navptestworld/background.jpg?raw=true)
 ![Current NAVP visualization](https://github.com/dbierek/NavpTestWorld/blob/main/blobs/images/navviewer/img.png?raw=true)
 ### Mod description:
-This mod is designed to test custom Navmeshes created using [some new enhancements to NavTool](https://github.com/OrfeasZ/ZHMTools/compare/master...dbierek:ZHMTools-dbierek:tony-navtool-updates) in [ZHMTools](https://github.com/OrfeasZ/ZHMTools)
+This mod is designed to test custom Navmeshes created using [some new enhancements to NavTool](https://github.com/OrfeasZ/ZHMTools/pull/34) in [ZHMTools](https://github.com/OrfeasZ/ZHMTools)
 ### Installation instructions:
 1. Download a release zip file.
 2. Import it using SMF (Simple Mod Framework: https://github.com/atampy25/simple-mod-framework).
