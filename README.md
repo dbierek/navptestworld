@@ -3,14 +3,50 @@
 ![Navp Test World](https://github.com/dbierek/NavpTestWorld/blob/main/blobs/images/atomicforce/navptestworld/background.jpg?raw=true)
 ![Current NAVP visualization](https://github.com/dbierek/NavpTestWorld/blob/main/blobs/images/navviewer/img.png?raw=true)
 ### Mod description:
-This mod is designed to test custom Navmeshes created using [some new enhancements to NavTool](https://github.com/OrfeasZ/ZHMTools/pull/34) in [ZHMTools](https://github.com/OrfeasZ/ZHMTools)
+This mod is designed to test custom Navmeshes created using [some new enhancements to NavTool](https://github.com/OrfeasZ/ZHMTools/pull/34) in [ZHMTools](https://github.com/OrfeasZ/ZHMTools)  
+To use the new updates to [NavTool](https://github.com/OrfeasZ/ZHMTools/tree/master/Tools/NavTool/Src), you will currently need to compile ZHMTools from the above branch. Then go to the folder where `NavTool.exe` is and launch the `NavTool.exe` executible with the following arguments.  
+It will read from NAVP or JSON depending on the filename in the first argument. If the filename contains JSON it will open and parse the JSON file. I recommend naming the file `[HASHCODE].NAVP.JSON`, but it can be anything as long as it ends in .JSON.  
+### Writing to JSON:  
+Use the `--navp` flag and enter the output filename.  
+*Example:*  
+`NavTool.exe 00F7EAFFD546CE00.NAVP.JSON --navp 00F7EAFFD546CE00.NAVP`  
+### Writing to JSON:  
+Use the `--json` flag and enter the output filename.  
+*Example:*  
+`NavTool.exe 009F622BC6A91CC4.NAVP --json 009F622BC6A91CC4.NAVP.JSON`  
+### Using the NAVP file in a scenario
+Then once you have your NAVP file, you can set a scenario to use it by setting the `m_NavpowerResourceID` property of the `[modules:/zpathfinderconfiguration.class].pc_entitytype` entity of the scenario to your NAVP file.  
+For instance, if you have a NAVP file with the ioi string `[assembly:/_pro/scenes/atomicforce/missions/navptestworld/scene_navp_test_world.navp].pc_navp`, name it `009F622BC6A91CC4.NAVP` and reference it like so.  
+```
+{
+  "parent": "feeda7528f32d6f9",
+  "name": "PathfinderConfiguration",
+  "factory": "[modules:/zpathfinderconfiguration.class].pc_entitytype",
+  "blueprint": "[modules:/zpathfinderconfiguration.class].pc_entityblueprint",
+  "properties": {
+    "m_NavpowerResourceID": {
+      "type": "ZRuntimeResourceID",
+      "value": {
+        "resource": "[assembly:/_pro/scenes/atomicforce/missions/navptestworld/scene_navp_test_world.navp].pc_navp",
+        "flag": "5F"
+      }
+    }
+  }
+}
+```
+### Visualizing the NAVP  
+You can also view it using [NavViewer](https://github.com/OrfeasZ/ZHMTools/tree/master/Tools/NavViewer), which is also in ZHMTools.  
+1. Run `NavTool.exe` with the only argument being the filename of the NAVP you want to visualize and output the contents to a file. For instance to output to `00F7EAFFD546CE00.js` like so `NavTool.exe 00F7EAFFD546CE00.NAVP > 00F7EAFFD546CE00.js`.  
+2. Copy the contents of that file output to `NavMeshes.js` in the NavViewer folder.  
+3. Start an http server in the NavViewer folder. One option is the npm package `http-server`, which you can install via `npm install --global http-server`. Then you can just run `http-server -c-1` from the NavViewer folder.  
+4. Navigate to that URL, for instance `http://127.0.0.1:8080`.  
 ### Installation instructions:
 1. Download a release zip file.
 2. Import it using SMF (Simple Mod Framework: https://github.com/atampy25/simple-mod-framework).
 3. Click Deploy.
 4. Launch Hitman in Offline mode.
 
-Current release uses NavpJsonVersion 0.1.  
+**Current release uses NavpJsonVersion 0.1.**  
 **NavpJsonVersion 0.1**
 Example:
 ```
