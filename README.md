@@ -4,7 +4,7 @@
 ![Current NAVP visualization](https://github.com/dbierek/NavpTestWorld/blob/main/blobs/images/navviewer/img.png?raw=true)
 ### Mod description:
 This mod is designed to test custom Navmeshes created using NavTool in [ZHMTools](https://github.com/OrfeasZ/ZHMTools)  
-To use the new updates to [NavTool](https://github.com/OrfeasZ/ZHMTools/tree/master/Tools/NavTool/Src), you will currently need to compile ZHMTools from the above branch. Then go to the folder where `NavTool.exe` is and launch the `NavTool.exe` executible with the following arguments.  
+To use the new updates to [NavTool](https://github.com/OrfeasZ/ZHMTools/tree/master/Tools/NavTool/Src), you will currently need to compile ZHMTools from the master branch. Then go to the folder where `NavTool.exe` is and launch the `NavTool.exe` executible with the following arguments.  
 It will read from NAVP or JSON depending on the filename in the first argument. If the filename contains JSON it will open and parse the JSON file.   
 ### Writing to NAVP:  
 Use the `--navp` flag and enter the output filename.  
