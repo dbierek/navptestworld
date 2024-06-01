@@ -82,6 +82,9 @@ function createGrid(oi, ox, oy, z, nx, ny, dx, dy, beforeI) {
     }
     return grid;
 }
+// Create the grid for the APC Area. 23377 is the first waypoint of the APC area since 23376 was the last one in the AIRG file
+// Must also connect the before and after rows, so that's why it also creates a grid for the smaller area. In a future enhancement
+// it will automatically connect the before and after rows.
 // 4837 // 23365
 // let initialX = -1.6800037622451782;
 // let initialY = 608.6499633789062;
@@ -97,6 +100,13 @@ let initialY = 608.3499755859375;
 let initialZ = 1.2378876209259033;
 createGrid(23377, initialX, initialY, initialZ, 12, 32, 0.29998779296875, -0.29998779296875)
 
+// Create visibility data for APC Area
+function generateVisibilityData(waypointCount, offset) {
+    return new Array(offset * waypointCount).fill(0);
+}
+generateVisibilityData(556, * 384);
+
+//////// Swap two areas (used to swap the flying train AIRG with the lower train AIRG)
 let xDiff = 0
 let yDiff = 1.099987745284984
 let zDiff = 171.0000087022781397
