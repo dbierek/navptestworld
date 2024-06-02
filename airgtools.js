@@ -104,7 +104,9 @@ createGrid(23377, initialX, initialY, initialZ, 12, 32, 0.29998779296875, -0.299
 function generateVisibilityData(waypointCount, offset) {
     return new Array(offset * waypointCount).fill(0);
 }
-generateVisibilityData(556, * 384);
+generateVisibilityData(556, 384);
+
+
 
 //////// Swap two areas (used to swap the flying train AIRG with the lower train AIRG)
 let xDiff = 0
