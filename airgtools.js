@@ -34,7 +34,7 @@ function inbounds(xi, yi, nx, ny) {
     return (xi >= 0 && xi < nx && yi >= 0 && yi < ny);
 }
 // Get Waypoint Index of grid point
-function getGridI(xi, yi, nx, ny, beforeI) {
+function getGridIWithAdjacentRows(xi, yi, nx, ny, beforeI, afterI) {
     // Use previous waypoint indices for first row
     if (yi == -1) {
         if (!inbounds(xi, 0, nx, ny)){
@@ -42,22 +42,22 @@ function getGridI(xi, yi, nx, ny, beforeI) {
         }
         return beforeI + xi;
     }
-    // // Use next waypoint indices for last row
-    // if (yi == ny) {
-    //     if (!inbounds(xi, ny - 1, nx, ny)){
-    //         return -1;
-    //     }
-    //     return beforeI + nx + xi;
-    // }
+    // Use next waypoint indices for last row
+    if (yi == ny) {
+        if (!inbounds(xi, ny - 1, nx, ny)){
+            return -1;
+        }
+        return afterI + xi;
+    }
     if (!inbounds(xi, yi, nx, ny)){
         return -1;
     }
     return yi * nx + xi;
 }
 // Get neighbor waypoint index for neighbor number
-function getNeighbor(xi, yi, nx, ny, n, beforeI) {
+function getNeighborWithAdjacentRows(xi, yi, nx, ny, n, beforeI, afterI) {
     let d = [[0,-1], [1,-1], [1,0], [1,1], [0,1], [-1,1], [-1,0], [-1,-1]];
-    return getGridI(xi + d[n][0], yi + d[n][1], nx, ny, beforeI)
+    return getGridI(xi + d[n][0], yi + d[n][1], nx, ny, beforeI, afterI)
 }
 // Create a grid.
 // Params:
@@ -66,14 +66,14 @@ function getNeighbor(xi, yi, nx, ny, n, beforeI) {
 // nx, ny: Width and Depth of the grid in terms of point count
 // dx, dy: Distance between grid points
 // beforeI: The waypoint index of the point on the previous row (y) with an column (x) of 0
-function createGrid(oi, ox, oy, z, nx, ny, dx, dy, beforeI) {
+function createGridWithAdjacentRows(oi, ox, oy, z, nx, ny, dx, dy, beforeI, afterI) {
     let grid = [];
     let i = oi;
     for (let yi = 0; yi < ny; yi++) {
         for (let xi = 0; xi < nx; xi++) {
             let neighbors = [];
             for (let neighborI = 0; neighborI < 8; neighborI++) {
-                let ni = getNeighbor(xi, yi, nx, ny, neighborI, beforeI);
+                let ni = getNeighborWithAdjacentRows(xi, yi, nx, ny, neighborI, beforeI, afterI);
                 if (ni == -1) {
                     neighbors.push(65535);
                 } else {
@@ -106,39 +106,136 @@ function insertGridAndAddVisibility(oi, ox, oy, z, nx, ny, dx, dy, beforeI) {
     AIGrids["00F7EAFFD546CE00.NAVP"]["m_nSize"] += newNodeCount;
     AIGrids["00F7EAFFD546CE00.NAVP"]["m_nNodeCount"] += newNodeCount;
 }
-// 23762 (where 15384 would be)
-let initialX = -1.380003809928894;
-let initialY = 285.84994506835935;
-let initialZ = 1.2378735542297363;
-createGrid(23761, initialX, initialY, initialZ, 10, 30, 0.29998779296875, -0.29998779296875, 15374);
+// Pipes 1
+// 24064 (where 15571 would be)
+// let initialX = -1.6800037622451782;
+// let initialY = 270.84994506835935;
+// let initialZ = 1.1378728151321411;
+// createGrid(24064, initialX, initialY, initialZ,  9, 18, 0.29998779296875, -0.29998779296875, 15562, 15628);
 
+// insertGridAndAddVisibility(24064, initialX, initialY, initialZ, 8, 18, 0.29998779296875, -0.29998779296875, 15562, 15628);
 
-insertGridAndAddVisibility(23761, initialX, initialY, initialZ, 10, 30, 0.29998779296875, -0.29998779296875, 15374);
-
-function connectRowToNext(waypointI, nextI, rowLength) {
-    for (let i = 0; i < rowLength; i++) {
-        let waypoint = AIGrids["00F7EAFFD546CE00.NAVP"]["m_WaypointList"][wayPointI];
-        let neighbors = [];
-        for (let n = 0; n < 8; n++) {
-            let ni = getNeighbor(i, 0, rowLength, 1, n, waypointI - rowLength);
-            if (ni == -1) {
-                neighbors.push(65535);
-            } else {
-                if ((yi == 0 && (neighborI == 0 || neighborI == 1 || neighborI == 7)) ||
-                (yi == ny - 1 && (neighborI == 5 || neighborI == 4 || neighborI == 3))) {
-                    neighbors.push(ni);
+function moveToNextRowY(waypoint, dy) {
+    waypoint["vPos"]["y"] += dy;
+}
+function getGridI(xi, yi, nx, ny) {
+    if (!inbounds(xi, yi, nx, ny)){
+        return -1;
+    }
+    return yi * nx + xi;
+}
+// Get neighbor waypoint index for neighbor number
+function getNeighbor(xi, yi, nx, ny, n) {
+    let d = [[0,-1], [1,-1], [1,0], [1,1], [0,1], [-1,1], [-1,0], [-1,-1]];
+    return getGridI(xi + d[n][0], yi + d[n][1], nx, ny)
+}
+function createGrid(oi, ox, oy, z, nx, ny, dx, dy) {
+    let grid = [];
+    let i = oi;
+    for (let yi = 0; yi < ny; yi++) {
+        for (let xi = 0; xi < nx; xi++) {
+            let neighbors = [];
+            for (let neighborI = 0; neighborI < 8; neighborI++) {
+                let ni = getNeighbor(xi, yi, nx, ny, neighborI);
+                if (ni == -1) {
+                    neighbors.push(65535);
                 } else {
-                    neighbors.push(oi + ni);
+                    if ((yi == 0 && (neighborI == 0 || neighborI == 1 || neighborI == 7)) ||
+                    (yi == ny - 1 && (neighborI == 5 || neighborI == 4 || neighborI == 3))) {
+                        neighbors.push(ni);
+                    } else {
+                        neighbors.push(oi + ni);
+                    }
                 }
             }
+            let waypoint = createWaypoint(neighbors, ox + dx * xi, oy + dy * yi, z, 556, i);
+            grid.push(waypoint);
+            i++;
         }
-        setNeighbors(waypoint, neighbors);
     }
+    return grid;
 }
 
+// Pipes 2
+// 24226 (where 15724 would be)
+// -0.48000380396842957, y: 263.3499450683594, z: 1.137872576713562
+// let initialX = -0.48000380396842957;
+// let initialY = 263.04995727539065;
+// let initialZ = 1.137872576713562;
+// createGrid(24226, initialX, initialY, initialZ,  8, 18, 0.29998779296875, -0.29998779296875);
+// Barrels
+// 24370 (where 15417 would be)
+//  -1.6800037622451782, y: 275.949951171875, z: 1.1378730535507202
+let initialX = -1.6800037622451782;
+let initialY = 275.64996337890625;
+let initialZ = 1.1378730535507202;
+createGrid(24370, initialX, initialY, initialZ,  5, 8, 0.29998779296875, -0.29998779296875);
+
+// Example: connectRows([15715, 15727, 15731, 15735, ...], [15716, 24226, 24234, 24242, ...], true)
+function connectRows(row1, row2, isNorthSouth) {
+    for (let i = 0; i < row1.length; i++) {
+        if (isNorthSouth) {
+            // Modify north row's south neighbors
+            let waypoint = AIGrids["00F7EAFFD546CE00.NAVP"]["m_WaypointList"][row1[i]];
+            if (i != 0) {
+                waypoint["nNeighbor1"] = row2[i - 1];
+            }
+            waypoint["nNeighbor2"] = row2[i];
+            if (i != row1.length - 1) {
+                waypoint["nNeighbor3"] = row2[i + 1];
+            }
+            // Modify south row's north neighbors
+            waypoint = AIGrids["00F7EAFFD546CE00.NAVP"]["m_WaypointList"][row2[i]];
+            if (i != 0) {
+                waypoint["nNeighbor7"] = row2[i - 1];
+            }
+            waypoint["nNeighbor6"] = row2[i];
+            if (i != row1.length - 1) {
+                waypoint["nNeighbor5"] = row2[i + 1];
+            }
+        } else {
+            // Modify east row's west neighbors
+            let waypoint = AIGrids["00F7EAFFD546CE00.NAVP"]["m_WaypointList"][row1[i]];
+            if (i != 0) {
+                waypoint["nNeighbor5"] = row2[i - 1];
+            }
+            waypoint["nNeighbor4"] = row2[i];
+            if (i != row1.length - 1) {
+                waypoint["nNeighbor3"] = row2[i + 1];
+            }
+            // Modify west row's east neighbors
+            waypoint = AIGrids["00F7EAFFD546CE00.NAVP"]["m_WaypointList"][row2[i]];
+            if (i != 0) {
+                waypoint["nNeighbor7"] = row2[i - 1];
+            }
+            waypoint["nNeighbor0"] = row2[i];
+            if (i != row1.length - 1) {
+                waypoint["nNeighbor1"] = row2[i + 1];
+            }
+        }
+    }
+}
+// Pipes Area 2
+// let north = [ 15715, 15727, 15731, 15735, 15739, 15743, 15747, 15751, 15755, 15759, 15763, 15767, 15771, 15775, 15779, 15783, 15787, 15791, 15795, 15799 ];
+// let south = [ 15716, 24226, 24234, 24242, 24250, 24258, 24266, 24274, 24282, 24290, 24298, 24306, 24314, 24322, 24330, 24338, 24346, 24354, 24362, 15800 ];
+// let rightEast = [ 15715, 15716, 15717, 15718, 15719, 15720, 15721, 15722, 15723 ];
+// let rightWest = [ 15727, 24226, 24227, 24228, 24229, 24230, 24231, 24232, 24233 ];
+// let leftEast = [ 15795, 24362, 24363, 24364, 24365, 24366, 24367, 24368, 24369 ];
+// let leftWest = [ 15799, 15800, 15801, 15802, 15803, 15804, 15805, 15806, 15807 ];
+// Barrels Area
+let north = [15416, 24374, 24379, 24384, 24389, 24394, 24399, 24404, 24409, 15482];
+let south = [15417, 15424, 15431, 15438, 15445, 15452, 15458, 15464, 15471, 15483];
+let rightEast = [15412, 15413, 15414, 15415, 15416, 15417];
+let rightWest = [24370, 24371, 24372, 24373, 24374, 15424];
+let leftEast = [24405, 24406, 24407, 24408, 24409, 15471];
+let leftWest = [15478, 15479, 15480, 15481, 15482, 15483];
+
+connectRows(north, south, true);
+connectRows(rightEast, rightWest, false)
+connectRows(leftEast, leftWest, false)
 
 /*
-// 3 New points to fill out the last row
+Three new waypoints for Logs area.
             {
                 "nNeighbor0": 24051,
                 "nNeighbor1": 24052,
@@ -218,6 +315,13 @@ function connectRowToNext(waypointI, nextI, rowLength) {
 // Create visibility data for APC Area
 // generateVisibilityData(556, 384);
 
+// Logs Area
+// // 23762 (where 15384 would be)
+// let initialX = -1.380003809928894;
+// let initialY = 285.84994506835935;
+// let initialZ = 1.2378735542297363;
+// createGrid(23761, initialX, initialY, initialZ, 10, 30, 0.29998779296875, -0.29998779296875, 15374);
+// insertGridAndAddVisibility(23761, initialX, initialY, initialZ, 10, 30, 0.29998779296875, -0.29998779296875, 15374);
 
 //////// Swap two areas (used to swap the flying train AIRG with the lower train AIRG)
 let xDiff = 0
