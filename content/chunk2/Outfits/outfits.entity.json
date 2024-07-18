@@ -6,8 +6,8 @@
 		"fffffffffffffffe": {
 			"parent": null,
 			"name": "Scene",
-			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
-			"factory": "[modules:/zspatialentity.class].pc_entitytype"
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
 		"feed5e6ce1abba29": {
 			"parent": "fffffffffffffffe",
@@ -146,32 +146,348 @@
 			"name": "CHARSET_pilot",
 			"factory": "[assembly:/_pro/characters/templates/gecko/char_gecko_unique.template?/charset_gecko_unique_helicopterpilot_m.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/characters/templates/gecko/char_gecko_unique.template?/charset_gecko_unique_helicopterpilot_m.entitytemplate].pc_entityblueprint"
+		},
+		"cafe21151455fe4e": {
+			"parent": "cafe832d7feea9ed",
+			"name": "VRI_Bodyguard_AssaultRifle_Evacuate_VIP",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_assaultrifle_evacuate_vip.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_assaultrifle_evacuate_vip.entitytemplate].pc_entityblueprint"
+		},
+		"cafe7eb5668b1ed6": {
+			"parent": "cafe832d7feea9ed",
+			"name": "Prof_Golden_Guard_Penthouse",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_golden_guard_penthouse.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_golden_guard_penthouse.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe832d7feea9ed"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafed0b7546cef0c": {
+			"parent": "cafe832d7feea9ed",
+			"name": "DONT_USE_ON_LEVEL_ItemKey__AR_ Shashka A33 Covert",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "226c2548-53e0-4703-873c-366e2c38dc5f"
+				}
+			}
+		},
+		"cafebd424495faea": {
+			"parent": "cafe832d7feea9ed",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe832d7feea9ed"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe5eb438099cd6": {
+			"parent": "cafe832d7feea9ed",
+			"name": "Keyword_ActorIdentifier_Guard",
+			"factory": "[assembly:/_pro/design/actor/actoridentifierkeywords.template?/keyword_actoridentifier_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/actoridentifierkeywords.template?/keyword_actoridentifier_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe832d7feea9ed"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe51bc2569da55": {
+			"parent": "cafe832d7feea9ed",
+			"name": "VRI_Bodyguard_Pistol_Evacuate_VIP",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_evacuate_vip.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_evacuate_vip.entitytemplate].pc_entityblueprint"
+		},
+		"cafee0dd99cd582e": {
+			"parent": "cafe832d7feea9ed",
+			"name": "DONT_USE_ON_LEVEL_ItemKey__SMG_ DAK X3 NPC COVERT",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "bbabd2bd-6e21-4b9b-a361-71bc255fc9b9"
+				}
+			}
+		},
+		"cafe09c8e87d6e5f": {
+			"parent": "cafe832d7feea9ed",
+			"name": "VRI_Bodyguard_Smg_Ump_Evacuate_VIP",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_smg_ump_evacuate_vip.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_smg_ump_evacuate_vip.entitytemplate].pc_entityblueprint"
+		},
+		"cafef51ccd21fc1a": {
+			"parent": "cafe832d7feea9ed",
+			"name": "Keyword_DIALOGUE_GENERIC_TYPE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_generic_type.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_generic_type.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe832d7feea9ed",
+					"postInit": true
+				}
+			}
+		},
+		"cafe5b20ac1bbd33": {
+			"parent": "cafe832d7feea9ed",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ARMYVEST",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe832d7feea9ed"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafec7efda482972": {
+			"parent": "cafe832d7feea9ed",
+			"name": "Keyword_MUSIC_OUTFIT_REWARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_music_outfit_reward.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_music_outfit_reward.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe832d7feea9ed",
+					"postInit": true
+				}
+			}
+		},
+		"cafe832d7feea9ed": {
+			"parent": "fffffffffffffffe",
+			"name": "Golden_Guard_PenthouseGuard_M_PRO176606",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bWeaponsAllowed": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "f0a52fef-608a-4fa8-9fd6-bd5c15506188"
+				},
+				"m_aAnimationSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe51bc2569da55",
+						"cafe21151455fe4e",
+						"cafe09c8e87d6e5f"
+					]
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "1357f3657950d38e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafee0dd99cd582e",
+						"cafed0b7546cef0c"
+					]
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Golden_Guard_PenthouseGuard_M_PRO176606"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Penthouse Guard"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Queensgrd"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_guard_penthouseguard_m_name_f0a52fef-608a-4fa8-9fd6-bd5c15506188.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_golden.sweetmenutext?/golden_guard_penthouseguard_m_description_f0a52fef-608a-4fa8-9fd6-bd5c15506188.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_SPECOPS01",
+						"eAVV_SPECOPS02",
+						"eAVV_BDYGRD06"
+					]
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Guard"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafebcd739138d8c"
+					],
+					"postInit": true
+				},
+				"m_AvailableGrenadeKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe93b1568e0fae"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"cafe5dbd4dd641ac": {
+			"parent": "cafe832d7feea9ed",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe832d7feea9ed"
+					]
+				}
+			}
+		},
+		"cafeb112c67478cc": {
+			"parent": "cafe832d7feea9ed",
+			"name": "Keyword_Prof_Class_Guard_Light",
+			"factory": "003F8A8A859AE133",
+			"blueprint": "0059DEB85AA5AFED",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe832d7feea9ed"
+					]
+				}
+			}
+		},
+		"cafede3da29a7b90": {
+			"parent": "cafe832d7feea9ed",
+			"name": "Keyword_DIALOGUE_NPC_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe832d7feea9ed"
+				}
+			}
+		},
+		"cafe93b1568e0fae": {
+			"parent": "cafe832d7feea9ed",
+			"name": "ItemKey__Grenade_ Flash 1",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca"
+				}
+			}
+		},
+		"cafeeaba10ab7e94": {
+			"parent": "cafe832d7feea9ed",
+			"name": "Prof_Golden_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_golden_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_golden_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe832d7feea9ed"
+					]
+				}
+			}
+		},
+		"cafe4eff2b8f5c67": {
+			"parent": "cafe832d7feea9ed",
+			"name": "Prof_Golden",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_golden.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_golden.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"cafe832d7feea9ed"
+					]
+				}
+			}
+		},
+		"cafebcd739138d8c": {
+			"parent": "cafe832d7feea9ed",
+			"name": "CHARSET_Gecko_Guard_PenthouseGuards_M",
+			"factory": "[assembly:/_pro/characters/templates/gecko/char_gecko_guards.template?/charset_gecko_guard_penthouseguards_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/gecko/char_gecko_guards.template?/charset_gecko_guard_penthouseguards_m.entitytemplate].pc_entityblueprint"
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
