@@ -293,53 +293,24 @@
 			"properties": {
 				"m_vRoomMin": {
 					"type": "SVector3",
-					"value": {
-						"x": -1000,
-						"y": -1000,
-						"z": -1000
-					}
+					"value": { "x": -1000, "y": -1000, "z": -1000 }
 				},
 				"m_vRoomMax": {
 					"type": "SVector3",
-					"value": {
-						"x": 1000,
-						"y": 1000,
-						"z": 1000
-					}
+					"value": { "x": 1000, "y": 1000, "z": 1000 }
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
-				"m_bIsPrivate": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bOutside": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCSMRoom": {
-					"type": "bool",
-					"value": true
-				}
+				"m_bIsPrivate": { "type": "bool", "value": false },
+				"m_bOutside": { "type": "bool", "value": true },
+				"m_bCSMRoom": { "type": "bool", "value": true }
 			},
-			"subsets": {
-				"Rooms": [
-					"fffffffffffffffe"
-				]
-			}
+			"subsets": { "Rooms": ["fffffffffffffffe"] }
 		},
 		"feed560ebbc6d216": {
 			"parent": "feedb3f93c76d3b1",
@@ -392,16 +363,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -472,10 +435,7 @@
 					"type": "float32",
 					"value": 100000
 				},
-				"m_fSunRadiusScale": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fSunRadiusScale": { "type": "float32", "value": 1 },
 				"m_fRayleighHeightScale": {
 					"type": "float32",
 					"value": 3000
@@ -484,18 +444,12 @@
 					"type": "SColorRGB",
 					"value": "#4a95ff"
 				},
-				"m_fInscatterIntensity": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fInscatterIntensity": { "type": "float32", "value": 1 },
 				"m_fMieAnisotropy": {
 					"type": "float32",
 					"value": 0.6899999976158142
 				},
-				"m_fMieHeightScale": {
-					"type": "float32",
-					"value": 500
-				},
+				"m_fMieHeightScale": { "type": "float32", "value": 500 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feedb3f93c76d3b1"
@@ -511,11 +465,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 1.2996870279312134,
 							"y": -8.302420616149902,
@@ -539,10 +489,7 @@
 					"type": "SColorRGB",
 					"value": "#e6f5fc"
 				},
-				"m_fGlobalLightPhong": {
-					"type": "float32",
-					"value": 3
-				},
+				"m_fGlobalLightPhong": { "type": "float32", "value": 3 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feedb3f93c76d3b1"
@@ -567,10 +514,7 @@
 					"type": "ILightEntity.ELightType",
 					"value": "LT_DIRECTIONAL"
 				},
-				"m_bCastCSMShadows": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bCastCSMShadows": { "type": "bool", "value": true },
 				"m_vFarAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -585,10 +529,7 @@
 						"y": 0.5961670279502869
 					}
 				},
-				"m_fDiffusePower": {
-					"type": "float32",
-					"value": 500
-				},
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
 				"m_vNearAttenuation": {
 					"type": "SVector2",
 					"value": {
@@ -596,14 +537,8 @@
 						"y": 0.7266290187835693
 					}
 				},
-				"m_bVisible": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": true },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
@@ -619,10 +554,7 @@
 						}
 					}
 				},
-				"m_bIsPrivate": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bIsPrivate": { "type": "bool", "value": true },
 				"m_diffuseColor": {
 					"type": "SColorRGB",
 					"value": "#ffffff"
@@ -642,11 +574,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0,
 							"y": 0,
@@ -654,34 +582,16 @@
 						}
 					}
 				},
-				"m_fAngularDeviationY": {
-					"type": "float32",
-					"value": 40
-				},
-				"m_fStrength": {
-					"type": "float32",
-					"value": 2
-				},
+				"m_fAngularDeviationY": { "type": "float32", "value": 40 },
+				"m_fStrength": { "type": "float32", "value": 2 },
 				"m_fStrengthAmplitude": {
 					"type": "float32",
 					"value": 0.5
 				},
-				"m_fAngularDeviationZ": {
-					"type": "float32",
-					"value": 5
-				},
-				"m_bGlobal": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fDirectionFrequency": {
-					"type": "float32",
-					"value": 2
-				},
-				"m_fStrengthFrequency": {
-					"type": "float32",
-					"value": 2
-				},
+				"m_fAngularDeviationZ": { "type": "float32", "value": 5 },
+				"m_bGlobal": { "type": "bool", "value": true },
+				"m_fDirectionFrequency": { "type": "float32", "value": 2 },
+				"m_fStrengthFrequency": { "type": "float32", "value": 2 },
 				"m_fSpeedTreeStrength": {
 					"type": "float32",
 					"value": 0.009999999776482582
@@ -708,20 +618,12 @@
 				},
 				"m_vSampleOffset": {
 					"type": "SVector3",
-					"value": {
-						"x": 0,
-						"y": 0,
-						"z": 5
-					}
+					"value": { "x": 0, "y": 0, "z": 5 }
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
+						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": {
 							"x": 0,
 							"y": 0,
@@ -757,21 +659,14 @@
 							"y": 0,
 							"z": -83.8972625732422
 						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"ConstantVector1D_02_Value": {
 					"type": "float32",
 					"value": 0.8999999761581421
 				},
-				"m_bVisible": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bVisible": { "type": "bool", "value": true },
 				"ConstantVector1D_07_Value": {
 					"type": "float32",
 					"value": 4
@@ -800,10 +695,7 @@
 					"type": "bool",
 					"value": false
 				},
-				"m_bHDRGlareEnabled": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bHDRGlareEnabled": { "type": "bool", "value": true },
 				"m_eHDRGlareType": {
 					"type": "ZRenderPostfilterParametersEntity.EHDRGlareType",
 					"value": "eCinecamVerticalSlits"
@@ -812,38 +704,20 @@
 					"type": "float32",
 					"value": 1
 				},
-				"m_bNoiseEnabled": {
-					"type": "bool",
-					"value": false
-				},
-				"m_fNoiseScale": {
-					"type": "float32",
-					"value": 0.75
-				},
-				"m_bSSAOEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_fSSAOOcclusionRange": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_bNoiseEnabled": { "type": "bool", "value": false },
+				"m_fNoiseScale": { "type": "float32", "value": 0.75 },
+				"m_bSSAOEnabled": { "type": "bool", "value": true },
+				"m_fSSAOOcclusionRange": { "type": "float32", "value": 1 },
 				"m_bDepthOfFieldEnabled": {
 					"type": "bool",
 					"value": false
 				},
-				"m_bFogEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bFogEnabled": { "type": "bool", "value": false },
 				"m_fFogDensity": {
 					"type": "float32",
 					"value": 0.10999999940395357
 				},
-				"m_FogColor": {
-					"type": "SColorRGB",
-					"value": "#171c21"
-				},
+				"m_FogColor": { "type": "SColorRGB", "value": "#171c21" },
 				"m_bGaussianBlurEnabled": {
 					"type": "bool",
 					"value": false
@@ -892,10 +766,7 @@
 					"type": "float32",
 					"value": 10
 				},
-				"m_bFogGlobal": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bFogGlobal": { "type": "bool", "value": false },
 				"m_fFogTurbulenceOpacity": {
 					"type": "float32",
 					"value": 0.800000011920929
@@ -904,10 +775,7 @@
 					"type": "float32",
 					"value": 100
 				},
-				"m_bVignetteEnabled": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bVignetteEnabled": { "type": "bool", "value": false },
 				"m_fVignetteStrength": {
 					"type": "float32",
 					"value": 0.20000000298023224
@@ -920,14 +788,8 @@
 					"type": "bool",
 					"value": false
 				},
-				"m_bRadialBlurEnabled": {
-					"type": "bool",
-					"value": false
-				},
-				"m_fRadialBlurriness": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_bRadialBlurEnabled": { "type": "bool", "value": false },
+				"m_fRadialBlurriness": { "type": "float32", "value": 1 },
 				"m_bDistortionWobbleEnabled": {
 					"type": "bool",
 					"value": false
@@ -940,45 +802,23 @@
 					"type": "float32",
 					"value": 1
 				},
-				"m_fGaussianBlurriness": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fGaussianBlurriness": { "type": "float32", "value": 1 },
 				"m_vRadialBlurCenter": {
 					"type": "SVector2",
-					"value": {
-						"x": 0.5,
-						"y": 0.5
-					}
+					"value": { "x": 0.5, "y": 0.5 }
 				},
-				"m_fRadialBlurStart": {
-					"type": "float32",
-					"value": 0
-				},
+				"m_fRadialBlurStart": { "type": "float32", "value": 0 },
 				"m_fRadialBlurFadeFactor": {
 					"type": "float32",
 					"value": 0.10999999940395357
 				},
 				"m_vSpatialBlurCenter": {
 					"type": "SVector3",
-					"value": {
-						"x": 0,
-						"y": 0,
-						"z": 0
-					}
+					"value": { "x": 0, "y": 0, "z": 0 }
 				},
-				"m_fSpatialBlurStart": {
-					"type": "float32",
-					"value": 0
-				},
-				"m_fSpatialBlurFade": {
-					"type": "float32",
-					"value": 10
-				},
-				"m_fSpatialBlurriness": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fSpatialBlurStart": { "type": "float32", "value": 0 },
+				"m_fSpatialBlurFade": { "type": "float32", "value": 10 },
+				"m_fSpatialBlurriness": { "type": "float32", "value": 1 },
 				"m_fDepthOfFieldFocusStart": {
 					"type": "float32",
 					"value": 1
@@ -1007,18 +847,11 @@
 				},
 				"m_vDistortionWobbleSpeed": {
 					"type": "SVector2",
-					"value": {
-						"x": 1,
-						"y": 1
-					}
+					"value": { "x": 1, "y": 1 }
 				},
 				"m_vFogTurbulenceNearScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 10,
-						"y": 10,
-						"z": 10
-					}
+					"value": { "x": 10, "y": 10, "z": 10 }
 				},
 				"m_vFogTurbulenceVelocity": {
 					"type": "SVector3",
@@ -1034,10 +867,7 @@
 				},
 				"m_vHDRAdaptationMiddleGrayMinMax": {
 					"type": "SVector2",
-					"value": {
-						"x": 0.5,
-						"y": 0.5
-					}
+					"value": { "x": 0.5, "y": 0.5 }
 				},
 				"m_HDRLensFlareColorA": {
 					"type": "SColorRGB",
@@ -1127,45 +957,24 @@
 					"type": "float32",
 					"value": 0.05000000074505806
 				},
-				"m_fHDRStarScale": {
-					"type": "float32",
-					"value": 0.5
-				},
+				"m_fHDRStarScale": { "type": "float32", "value": 0.5 },
 				"m_vSSAOStrengthNearFar": {
 					"type": "SVector2",
-					"value": {
-						"x": 0,
-						"y": 15
-					}
+					"value": { "x": 0, "y": 15 }
 				},
 				"m_vSSAODistanceNearFar": {
 					"type": "SVector2",
-					"value": {
-						"x": 0,
-						"y": 15
-					}
+					"value": { "x": 0, "y": 15 }
 				},
 				"m_vSSAOScreenSpaceRadiusLimits": {
 					"type": "SVector2",
-					"value": {
-						"x": 15,
-						"y": 100
-					}
+					"value": { "x": 15, "y": 100 }
 				},
-				"m_nParameterId": {
-					"type": "int32",
-					"value": 0
-				},
-				"m_bHDREnabled": {
-					"type": "bool",
-					"value": true
-				},
+				"m_nParameterId": { "type": "int32", "value": 0 },
+				"m_bHDREnabled": { "type": "bool", "value": true },
 				"m_vHDRAdaptationLuminanceMinMax": {
 					"type": "SVector2",
-					"value": {
-						"x": 100,
-						"y": 100
-					}
+					"value": { "x": 100, "y": 100 }
 				},
 				"BillboardTexture": {
 					"type": "ZRuntimeResourceID",
@@ -1183,10 +992,7 @@
 				},
 				"m_vASSAOFadeInRange": {
 					"type": "SVector2",
-					"value": {
-						"x": -5,
-						"y": 10
-					}
+					"value": { "x": -5, "y": 10 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1200,10 +1006,7 @@
 			"factory": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/postfilters/fx_pf_postfiltercontroller.template?/fx_pf_postfiltercontroller.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_bColorCorrectionHDR": {
-					"type": "bool",
-					"value": false
-				}
+				"m_bColorCorrectionHDR": { "type": "bool", "value": false }
 			}
 		},
 		"feed8a69388d6183": {
@@ -1215,16 +1018,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -1249,25 +1044,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 100,
-						"y": 100,
-						"z": 100
-					}
+					"value": { "x": 100, "y": 100, "z": 100 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1297,30 +1080,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_sId": {
 					"type": "ZGuid",
 					"value": "623222a6-1e15-4f56-a529-8862e20181b6"
 				},
-				"m_bDefaultHeroSpawn": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bPreferredHeroSpawn": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bDefaultHeroSpawn": { "type": "bool", "value": true },
+				"m_bPreferredHeroSpawn": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -1358,30 +1127,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -8,
-							"y": 6,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -8, "y": 6, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 8,
-						"y": 6,
-						"z": 1
-					}
+					"value": { "x": 8, "y": 6, "z": 1 }
 				},
-				"m_bVisible": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bVisible": { "type": "bool", "value": true },
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
@@ -1401,30 +1155,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -180,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -8,
-							"y": -6,
-							"z": 6
-						}
+						"rotation": { "x": -180, "y": 0, "z": 0 },
+						"position": { "x": -8, "y": -6, "z": 6 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 8,
-						"y": 6,
-						"z": 1
-					}
+					"value": { "x": 8, "y": 6, "z": 1 }
 				},
-				"m_bVisible": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bVisible": { "type": "bool", "value": true },
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
@@ -1449,11 +1188,7 @@
 							"y": 0,
 							"z": -89.9999965849052
 						},
-						"position": {
-							"x": 6,
-							"y": -6,
-							"z": 0
-						}
+						"position": { "x": 6, "y": -6, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -1471,25 +1206,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 3 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -1510,25 +1233,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -1549,16 +1260,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -8,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -8, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -1576,25 +1279,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 3 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 3,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 3, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -1615,25 +1306,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 3,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 3, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -1654,16 +1333,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 180
-						},
-						"position": {
-							"x": 8,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": 8, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -1681,25 +1352,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 3 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 3,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 3, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -1720,25 +1379,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 3,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 3, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -1759,16 +1406,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -1786,16 +1425,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -1813,16 +1444,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -1840,11 +1463,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
+						"rotation": { "x": 0, "y": 0, "z": -180 },
 						"position": {
 							"x": 0,
 							"y": -3.799999952316284,
@@ -1854,11 +1473,7 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1875,25 +1490,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 0,
-							"y": -2,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": { "x": 0, "y": -2, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 0.7875049710273743
-					}
+					"value": { "x": 1, "y": 1, "z": 0.7875049710273743 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1910,16 +1513,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 6,
-							"y": 4,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 6, "y": 4, "z": 0 }
 					}
 				},
 				"RepositoryId": {
@@ -1930,10 +1525,7 @@
 					"type": "ZGuid",
 					"value": "ea5b1cea-c305-4f60-9512-78b2e6cd5030"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 0
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Tommy Marevick"
@@ -1954,12 +1546,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed07bd6182eebd": {
@@ -1970,14 +1558,9 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedb70d4454526f"
-					]
+					"value": ["feedb70d4454526f"]
 				},
-				"m_bTerminateOnDone": {
-					"type": "bool",
-					"value": false
-				}
+				"m_bTerminateOnDone": { "type": "bool", "value": false }
 			}
 		},
 		"feed8fa7d1960171": {
@@ -1991,13 +1574,7 @@
 					"value": "feed07bd6182eebd"
 				}
 			},
-			"events": {
-				"OnStart": {
-					"Start": [
-						"feeda19eadb62d8d"
-					]
-				}
-			}
+			"events": { "OnStart": { "Start": ["feeda19eadb62d8d"] } }
 		},
 		"feedb70d4454526f": {
 			"parent": "feed07bd6182eebd",
@@ -2021,26 +1598,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 0,
-							"y": -3.5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": { "x": 0, "y": -3.5, "z": 0 }
 					}
 				},
 				"m_AlignRotation": {
 					"type": "ZActBehaviorEntity.ERotationAlignment",
 					"value": "RA_EXACT"
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
 				"m_bUseConversationHelper": {
 					"type": "bool",
 					"value": true
@@ -2055,13 +1621,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feedecd94415b921"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["feedecd94415b921"] } }
 		},
 		"feed4171b6096aff": {
 			"parent": "feed07bd6182eebd",
@@ -2072,26 +1632,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": -6,
-							"y": 5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": { "x": -6, "y": 5, "z": 0 }
 					}
 				},
 				"m_AlignRotation": {
 					"type": "ZActBehaviorEntity.ERotationAlignment",
 					"value": "RA_EXACT"
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
 				"m_bUseConversationHelper": {
 					"type": "bool",
 					"value": true
@@ -2106,13 +1655,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feeda19eadb62d8d"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["feeda19eadb62d8d"] } }
 		},
 		"feed224cff428df0": {
 			"parent": "feedb1ad839e3e6c",
@@ -2128,11 +1671,7 @@
 							"y": 0,
 							"z": -89.9999965849052
 						},
-						"position": {
-							"x": -6,
-							"y": -6,
-							"z": 0
-						}
+						"position": { "x": -6, "y": -6, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2150,25 +1689,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 3 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2189,25 +1716,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2228,16 +1743,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2255,16 +1762,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": -14,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -14, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2282,16 +1781,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2309,16 +1800,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2336,16 +1819,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2363,16 +1838,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2395,11 +1862,7 @@
 							"y": 0,
 							"z": 89.9999965849052
 						},
-						"position": {
-							"x": 0,
-							"y": 6,
-							"z": 0
-						}
+						"position": { "x": 0, "y": 6, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2417,16 +1880,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -4,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -4, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2444,16 +1899,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 180
-						},
-						"position": {
-							"x": 4,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": 4, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2471,25 +1918,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 3 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 4,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 4, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2510,25 +1945,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 4,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 4, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2549,25 +1972,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 3 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 4,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 4, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2588,25 +1999,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 4,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 4, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2627,25 +2026,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 3 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 4,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 4, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2666,25 +2053,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 4,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 4, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2705,30 +2080,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -4,
-							"y": 8,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -4, "y": 8, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 4,
-						"y": 8,
-						"z": 1
-					}
+					"value": { "x": 4, "y": 8, "z": 1 }
 				},
-				"m_bVisible": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bVisible": { "type": "bool", "value": true },
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
@@ -2748,30 +2108,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -180,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -4,
-							"y": -8,
-							"z": 6
-						}
+						"rotation": { "x": -180, "y": 0, "z": 0 },
+						"position": { "x": -4, "y": -8, "z": 6 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 4,
-						"y": 8,
-						"z": 1
-					}
+					"value": { "x": 4, "y": 8, "z": 1 }
 				},
-				"m_bVisible": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bVisible": { "type": "bool", "value": true },
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
@@ -2791,16 +2136,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
-						"position": {
-							"x": 2,
-							"y": -8,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": { "x": 2, "y": -8, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2818,25 +2155,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 3 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2857,25 +2182,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2896,16 +2209,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -90
-						},
-						"position": {
-							"x": -2,
-							"y": -8,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": { "x": -2, "y": -8, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -2923,25 +2228,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 3 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -2962,25 +2255,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
@@ -3001,25 +2282,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 0,
-							"y": -6,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": { "x": 0, "y": -6, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
+					"value": { "x": 1, "y": 1, "z": 1 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3036,26 +2305,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 0,
-							"y": -19,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": { "x": 0, "y": -19, "z": 0 }
 					}
 				},
 				"m_AlignRotation": {
 					"type": "ZActBehaviorEntity.ERotationAlignment",
 					"value": "RA_EXACT"
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
 				"m_bUseConversationHelper": {
 					"type": "bool",
 					"value": true
@@ -3070,13 +2328,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feed24a6899d56e9"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["feed24a6899d56e9"] } }
 		},
 		"feed39312d2f34c3": {
 			"parent": "feed0a60cf32eb01",
@@ -3087,16 +2339,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -3114,34 +2358,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 2.5,
-						"y": 1,
-						"z": 2
-					}
+					"value": { "x": 2.5, "y": 1, "z": 2 }
 				},
-				"m_fPenaltyMultiplier": {
-					"type": "float32",
-					"value": 15
-				},
-				"m_bEnabled": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fPenaltyMultiplier": { "type": "float32", "value": 15 },
+				"m_bEnabled": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feeda4e80bc4b859",
@@ -3158,34 +2384,16 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 2
-					}
+					"value": { "x": 1, "y": 1, "z": 2 }
 				},
-				"m_fPenaltyMultiplier": {
-					"type": "float32",
-					"value": 15
-				},
-				"m_bEnabled": {
-					"type": "bool",
-					"value": true
-				},
+				"m_fPenaltyMultiplier": { "type": "float32", "value": 15 },
+				"m_bEnabled": { "type": "bool", "value": true },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "feede50ae0479660",
@@ -3202,26 +2410,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 6,
-							"y": -5,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": { "x": 6, "y": -5, "z": 0 }
 					}
 				},
 				"m_AlignRotation": {
 					"type": "ZActBehaviorEntity.ERotationAlignment",
 					"value": "RA_EXACT"
 				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 1
-				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
 				"m_bUseConversationHelper": {
 					"type": "bool",
 					"value": true
@@ -3236,13 +2433,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feed4171b6096aff"
-					]
-				}
-			}
+			"events": { "OnActTimeout": { "Start": ["feed4171b6096aff"] } }
 		},
 		"cafe024f1af31d01": {
 			"parent": "feed7bab590bac26",
@@ -3253,16 +2444,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0.0,
-							"z": 135
-						},
-						"position": {
-							"x": 3,
-							"y": -5.8,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0.0, "z": 135 },
+						"position": { "x": 3, "y": -5.8, "z": 0 }
 					}
 				},
 				"RepositoryId": {
@@ -3273,10 +2456,7 @@
 					"type": "ZGuid",
 					"value": "f0a52fef-608a-4fa8-9fd6-bd5c15506188"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 0
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": []
@@ -3285,14 +2465,8 @@
 					"type": "ZString",
 					"value": "Aadil Sabir"
 				},
-				"m_nGrenadeIndex": {
-					"type": "int32",
-					"value": 1
-				},
-				"m_nWeaponIndex": {
-					"type": "int32",
-					"value": 1
-				},
+				"m_nGrenadeIndex": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -3300,12 +2474,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"cafe2b172f9902be": {
@@ -3317,25 +2487,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -0.0
-						},
-						"position": {
-							"x": 0.0,
-							"y": -4,
-							"z": 2.0
-						}
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": -4, "z": 2.0 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 8,
-						"y": 3.0,
-						"z": 4.0
-					}
+					"value": { "x": 8, "y": 3.0, "z": 4.0 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3353,25 +2511,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 0.0
-						},
-						"position": {
-							"x": 0,
-							"y": -6,
-							"z": 2
-						}
+						"rotation": { "x": -0.0, "y": 0.0, "z": 0.0 },
+						"position": { "x": 0, "y": -6, "z": 2 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 8,
-						"y": 2.0,
-						"z": 4.0
-					}
+					"value": { "x": 8, "y": 2.0, "z": 4.0 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3388,33 +2534,21 @@
 			"properties": {
 				"m_aEntranceZones": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafef8dfa9ea1ce3"
-					]
+					"value": ["cafef8dfa9ea1ce3"]
 				},
-				"m_bFrisk": {
-					"type": "bool",
-					"value": true
-				},
+				"m_bFrisk": { "type": "bool", "value": true },
 				"m_aGreetingZones": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe2b172f9902be"
-					]
+					"value": ["cafe2b172f9902be"]
 				},
 				"m_aActors": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe024f1af31d01",
-						"cafe27e8497e657f"
-					],
+					"value": ["cafe024f1af31d01", "cafe27e8497e657f"],
 					"postInit": true
 				},
 				"m_aWarningZones": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe2a0e081352eb"
-					],
+					"value": ["cafe2a0e081352eb"],
 					"postInit": true
 				},
 				"m_aWaypointActs": {
@@ -3449,25 +2583,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": 0.0
-						},
-						"position": {
-							"x": 0,
-							"y": -7,
-							"z": 2
-						}
+						"rotation": { "x": -0.0, "y": 0.0, "z": 0.0 },
+						"position": { "x": 0, "y": -7, "z": 2 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 8.0,
-						"y": 2,
-						"z": 4.0
-					}
+					"value": { "x": 8.0, "y": 2, "z": 4.0 }
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -3484,16 +2606,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": 0.0,
-							"z": -135
-						},
-						"position": {
-							"x": -3,
-							"y": -5.8,
-							"z": 0
-						}
+						"rotation": { "x": -0.0, "y": 0.0, "z": -135 },
+						"position": { "x": -3, "y": -5.8, "z": 0 }
 					}
 				},
 				"RepositoryId": {
@@ -3504,28 +2618,17 @@
 					"type": "ZGuid",
 					"value": "f0a52fef-608a-4fa8-9fd6-bd5c15506188"
 				},
-				"m_nOutfitVariation": {
-					"type": "int32",
-					"value": 0
-				},
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe73caaf34a83b"
-					]
+					"value": ["cafe73caaf34a83b"]
 				},
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Aadil Sabir"
 				},
-				"m_nGrenadeIndex": {
-					"type": "int32",
-					"value": 1
-				},
-				"m_nWeaponIndex": {
-					"type": "int32",
-					"value": 1
-				},
+				"m_nGrenadeIndex": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
@@ -3533,12 +2636,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"cafec95b2afee092": {
@@ -3555,9 +2654,7 @@
 			"properties": {
 				"m_Boxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe57b5e9489a37"
-					]
+					"value": ["cafe57b5e9489a37"]
 				}
 			}
 		},
@@ -3567,31 +2664,20 @@
 			"factory": "[modules:/ztrespassingruleentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztrespassingruleentity.class].pc_entityblueprint",
 			"properties": {
-				"m_bDeepTrespassing": {
-					"type": "bool",
-					"value": false
-				},
+				"m_bDeepTrespassing": { "type": "bool", "value": false },
 				"m_Zones": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe5933b2264f0a"
-					],
+					"value": ["cafe5933b2264f0a"],
 					"postInit": true
 				},
 				"m_KeeperProfessions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe73caaf34a83b",
-						"cafe4b50fc028610"
-					],
+					"value": ["cafe73caaf34a83b", "cafe4b50fc028610"],
 					"postInit": true
 				},
 				"m_AllowedProfessions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"cafe73caaf34a83b",
-						"cafe4b50fc028610"
-					],
+					"value": ["cafe73caaf34a83b", "cafe4b50fc028610"],
 					"postInit": true
 				}
 			}
@@ -3628,25 +2714,13 @@
 			"properties": {
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 8,
-						"y": 16,
-						"z": 6
-					}
+					"value": { "x": 8, "y": 16, "z": 6 }
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.0,
-							"y": -0.0,
-							"z": -0.0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 3
-						}
+						"rotation": { "x": -0.0, "y": -0.0, "z": -0.0 },
+						"position": { "x": 0, "y": 0, "z": 3 }
 					}
 				},
 				"m_eidParent": {
@@ -3664,16 +2738,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -3691,11 +2757,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": -90.0
-						},
+						"rotation": { "x": 0.0, "y": 0.0, "z": -90.0 },
 						"position": {
 							"x": 0,
 							"y": 3.372382640838623,
@@ -3718,16 +2780,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 90.0
-						},
-						"position": {
-							"x": 4,
-							"y": 3,
-							"z": 0
-						}
+						"rotation": { "x": 0.0, "y": 0.0, "z": 90.0 },
+						"position": { "x": 4, "y": 3, "z": 0 }
 					}
 				},
 				"m_eidParent": {
@@ -3772,21 +2826,54 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.0,
-							"y": 0.0,
-							"z": 90.0
-						},
-						"position": {
-							"x": 8,
-							"y": 3,
-							"z": 0
-						}
+						"rotation": { "x": 0.0, "y": 0.0, "z": 90.0 },
+						"position": { "x": 8, "y": 3, "z": 0 }
 					}
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "cafecbf125c67e32"
+				}
+			}
+		},
+		"cafe7109eb73463a": {
+			"parent": "feeda7528f32d6f9",
+			"name": "Defining Volumes",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe9eb8eada8243": {
+			"parent": "cafe7109eb73463a",
+			"name": "bPFBox MAIN INCLUDE",
+			"factory": "[modules:/zpfboxentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfboxentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.02, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 3.5881755352020264
+						}
+					}
+				},
+				"m_eType": {
+					"type": "EPathFinderBoxType",
+					"value": "PFBT_INCLUDE_MESH_COLLISION"
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 22.299999237060547,
+						"y": 19.0,
+						"z": 10.0
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
 				}
 			}
 		}
