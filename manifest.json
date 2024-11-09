@@ -36,13 +36,20 @@
 		"english": {
 			"UI_LOCATION_PARENT_ATOMICFORCE_NAVPTESTWORLD_COUNTRY": "Modland",
 			"UI_LOCATION_ATOMICFORCE_NAVPTESTWORLD_COUNTRY": "Navp Test World",
+			"UI_LOCATION_ATOMICFORCE_FREELANCER_COUNTRY": "Freelancer Country",
 			"UI_LOCATION_PARENT_ATOMICFORCE_NAVPTESTWORLD_CITY": "Navp Test World",
 			"UI_LOCATION_ATOMICFORCE_NAVPTESTWORLD_CITY": "Navp Test World",
 			"UI_LOCATION_ATOMICFORCE_NAVPTESTWORLD_TITLE": "Navp Test World",
+			"UI_LOCATION_ATOMICFORCE_FREELANCER_CITY": "Freelancer",
+			"UI_LOCATION_ATOMICFORCE_FREELANCER_TITLE": "Freelancer mission",
 			"UI_CONTRACT_ATOMICFORCE_NAVPTESTWORLD_TITLE": "Navp Test World",
 			"UI_CONTRACT_ATOMICFORCE_NAVPTESTWORLD_DESC": "Navp Test World. A world all about testing NAVPs",
+			"UI_CONTRACT_ATOMICFORCE_FREELANCER_TITLE": "Freelancer",
+			"UI_CONTRACT_ATOMICFORCE_FREELANCER_DESC": "Freelancer test. Battle NPCs",
 			"UI_ENTRANCE_ATOMICFORCE_NAVPTESTWORLD_DEFAULT_NAME": "Navp Test World Entrance",
-			"UI_ENTRANCE_ATOMICFORCE_NAVPTESTWORLD_DEFAULT_DESCRIPTION": "Entrance to the Navp Test World"
+			"UI_ENTRANCE_ATOMICFORCE_NAVPTESTWORLD_DEFAULT_DESCRIPTION": "Entrance to the Navp Test World",
+			"UI_ENTRANCE_ATOMICFORCE_FREELANCER_DEFAULT_NAME": "Freelancer Entrance",
+			"UI_ENTRANCE_ATOMICFORCE_FREELANCER_DEFAULT_DESCRIPTION": "Entrance to the Freelancer mission"
 		},
 		"french": {},
 		"italian": {},
@@ -58,6 +65,11 @@
 			"type": "entity",
 			"partition": "season3",
 			"path": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_navptestworld.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "snug",
+			"path": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_freelancer.entity].entitytemplate"
 		}
 	],
 	"version": "0.1.0",

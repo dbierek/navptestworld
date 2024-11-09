@@ -4,6 +4,20 @@
 	"patch": [
 		{
 			"SubEntityOperation": [
+				"d1639c894d40847f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pGrid",
+						"value": {
+							"resource": "[assembly:/_pro/scenes/missions/thefacility/_scene_mission_polarbear_module_005_scene_modified.airg].pc_airg",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
 				"a9a4190c4dbfaccf",
 				{
 					"SetPropertyValue": {

@@ -1,0 +1,14 @@
+{
+	"scene": "assembly:/_pro/scenes/atomicforce/navptestworld/scene_freelancer.entity",
+	"actors": [],
+	"entrances": [
+		{
+			"id": "86efd1be-3e73-49a1-8c07-409be9f35b3e",
+			"isDefaultSpawn": true,
+			"isPreferredSpawn": true,
+			"WorldTransform": "1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0"
+		}
+	],
+	"Exits": [],
+	"AgencyPickups": []
+}

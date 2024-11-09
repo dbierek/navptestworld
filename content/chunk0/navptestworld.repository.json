@@ -1,4 +1,11 @@
 {
+	"86efd1be-3e73-49a1-8c07-409be9f35b3e": {
+		"ID_": "86efd1be-3e73-49a1-8c07-409be9f35b3e",
+		"Description": "UI_ENTRANCE_ATOMICFORCE_FREELANCER_DEFAULT_DESCRIPTION",
+		"Image": "images/atomicforce/navptestworld/entrance/default.jpg",
+		"Name": "EntranceFreelancerDefault",
+		"Name_LOC": "UI_ENTRANCE_ATOMICFORCE_FREELANCER_DEFAULT_NAME"
+	},
 	"623222a6-1e15-4f56-a529-8862e20181b6": {
 		"ID_": "623222a6-1e15-4f56-a529-8862e20181b6",
 		"Description": "UI_ENTRANCE_ATOMICFORCE_NAVPTESTWORLD_DEFAULT_DESCRIPTION",

@@ -8,6 +8,10 @@
     "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_navptestworld.airg].pc_airg"
   },
   {
+    "hash": "001409DEC723BD75",
+    "IOI String": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.airg].pc_airg"
+  },
+  {
     "hash": "007FFD2655488B82",
     "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_navptestworld.entity].pc_entitytemplate"
   },
@@ -22,6 +26,22 @@
   {
     "hash": "003FC5B5BE3EA0CE",
     "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scenario_navptestworld.entity].pc_entityblueprint"
+  },
+  {
+    "hash": "0069ACC9CAC03459",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_freelancer.entity].pc_entitytemplate"
+  },
+  {
+    "hash": "00E9613F712ED6D1",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_freelancer.entity].pc_entityblueprint"
+  },
+  {
+    "hash": "009C570C861435BE",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scenario_freelancer.entity].pc_entitytemplate"
+  },
+  {
+    "hash": "002AFC47DE4CCF7A",
+    "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scenario_freelancer.entity].pc_entityblueprint"
   },
   {
     "hash": "00723D59B3F0661C",
@@ -42,6 +62,10 @@
   {
     "hash": "00CCEDAF9A81A574",
     "IOI String": "(planning_contract) atomicforce navptestworld"
+  },
+  {
+    "hash": "007FD3D83D5AD23B",
+    "IOI String": "(planning_contract) atomicforce freelancer"
   },
   {
     "hash": "00EF43A8410D9FBA",

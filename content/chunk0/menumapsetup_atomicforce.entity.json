@@ -17,6 +17,21 @@
 		},
 		"feed46f6843512b0": {
 			"parent": "feedd11488b36d5c",
+			"name": "Scene_Freelancer",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007FD3D83D5AD23B",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe7d0d465490b6": {
+			"parent": "feedd11488b36d5c",
 			"name": "Scene_NavpTestWorld",
 			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
@@ -31,30 +46,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
