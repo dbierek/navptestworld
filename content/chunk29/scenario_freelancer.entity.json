@@ -11,7 +11,7 @@
 		},
 		"abcd6b299c3d3e26": {
 			"parent": "fffffffffffffffe",
-			"name": "Scenario_Institute",
+			"name": "Scenario_Freelancer",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
@@ -829,6 +829,270 @@
 				"AudioEmitters": ["fffffffffffffffe"],
 				"Replicable": ["fffffffffffffffe"]
 			}
+		},
+		"cafe9439b95f5aa7": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Gecko_Guard_Security_M 2",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -102.96534 },
+						"position": {
+							"x": 23.49397,
+							"y": -176.96089,
+							"z": -10.950001
+						},
+						"scale": {
+							"x": 0.99999994,
+							"y": 0.99999994,
+							"z": 1
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "7f85a0c8-51d5-4cd7-8f26-26cdc169146e"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "eb12cc2b-6dcf-4831-ba4e-ef8e53180e2f"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Sameer Sani"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe460648c370d7": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Gecko_Guard_Security_M 3",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 77.03467 },
+						"position": {
+							"x": 36.146847,
+							"y": -168.81795,
+							"z": -7.998802
+						},
+						"scale": {
+							"x": 0.99999994,
+							"y": 0.99999994,
+							"z": 1
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "7f85a0c8-51d5-4cd7-8f26-26cdc169146e"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "eb12cc2b-6dcf-4831-ba4e-ef8e53180e2f"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Sameer Sani"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafea726761287fd": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Gecko_Guard_Security_M 4",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 167.03465 },
+						"position": {
+							"x": 29.39603,
+							"y": -186.7249,
+							"z": -5.000001
+						},
+						"scale": { "x": 0.9999999, "y": 0.9999999, "z": 1 }
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "7f85a0c8-51d5-4cd7-8f26-26cdc169146e"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "eb12cc2b-6dcf-4831-ba4e-ef8e53180e2f"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Sameer Sani"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafeb439b8017081": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Gecko_Guard_Security_M 5",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -12.965372 },
+						"position": {
+							"x": 32.292004,
+							"y": -141.78006,
+							"z": -18.943468
+						},
+						"scale": { "x": 1, "y": 1, "z": 1 }
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "7f85a0c8-51d5-4cd7-8f26-26cdc169146e"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "eb12cc2b-6dcf-4831-ba4e-ef8e53180e2f"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Sameer Sani"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafebdb596325b86": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Gecko_Guard_Security_M 7",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -102.98517 },
+						"position": {
+							"x": 10.578007,
+							"y": -139.76962,
+							"z": -19
+						},
+						"scale": {
+							"x": 0.99999994,
+							"y": 0.99999994,
+							"z": 1
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "7f85a0c8-51d5-4cd7-8f26-26cdc169146e"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "eb12cc2b-6dcf-4831-ba4e-ef8e53180e2f"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Sameer Sani"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe7d7a317912ca": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Gecko_Guard_Security_M 6",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -12.965372 },
+						"position": {
+							"x": 50.356155,
+							"y": -137.27269,
+							"z": -19
+						},
+						"scale": { "x": 1, "y": 1, "z": 1 }
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "7f85a0c8-51d5-4cd7-8f26-26cdc169146e"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "eb12cc2b-6dcf-4831-ba4e-ef8e53180e2f"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Sameer Sani"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -853,6 +1117,23 @@
 					"type": "ZRuntimeResourceID",
 					"value": {
 						"resource": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.airg].pc_airg",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "07dfe57fa8eb85e5",
+					"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_NavpowerResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.navp].pc_navp",
 						"flag": "5F"
 					}
 				}

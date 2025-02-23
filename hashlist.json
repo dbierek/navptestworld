@@ -8,6 +8,10 @@
     "IOI String": "[assembly:/_pro/scenes/atomicforce/navptestworld/scene_navptestworld.airg].pc_airg"
   },
   {
+    "hash": "009CDCB0DB15CB73",
+    "IOI String": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.navp].pc_navp"
+  },
+  {
     "hash": "001409DEC723BD75",
     "IOI String": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.airg].pc_airg"
   },
